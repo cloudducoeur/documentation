@@ -1,0 +1,18 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud du Coeur – Découvrir le Cloud du Coeur</title>
+    <link>http://localhost:1313/en-savoir-plus/</link>
+    <description>Recent content in Découvrir le Cloud du Coeur on Cloud du Coeur</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    
+	  <atom:link href="http://localhost:1313/en-savoir-plus/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>
