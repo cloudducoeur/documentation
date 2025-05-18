@@ -6,9 +6,6 @@ disableSidebar: false
 type: default
 width: normal
 ---
-<div style="display: flex; justify-content: center; align-items: center; margin-top: 2rem; margin-bottom: 2rem;">
-  <img src="img/logo.png" alt="Cloud du Coeur" style="max-width: 400px; height: auto;">
-</div>
 
 {{< hextra/hero-badge link="https://github.com/cloudducoeur/documentation">}}
   <div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>

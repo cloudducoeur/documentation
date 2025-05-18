@@ -7,8 +7,10 @@ params:
   description: 'Un projet de Cloud Computing Open Source et Éthique'
   navbar:
     displayTitle: false
-    displayLogo: false
-
+    displayLogo: true
+    logo:
+      path: img/logo.png
+      width: 175
   footer:
       displayCopyright: false
       displayPoweredBy: false
