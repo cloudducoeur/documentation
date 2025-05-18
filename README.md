@@ -2,6 +2,8 @@
 
 Ce dépôt contient la documentation publique des Restos du Cœur, générée avec [Hugo](https://gohugo.io/) et le thème [Hextra](https://github.com/imfing/hextra).
 
+![](static/img/pubdoc-site-capture.png)
+
 ## Aperçu
 
 - **Générateur de site statique** : [Hugo](https://gohugo.io/)
