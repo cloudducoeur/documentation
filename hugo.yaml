@@ -1,0 +1,65 @@
+baseURL: 'https://cloudducoeur.org/'
+languageCode: 'fr-fr'
+title: 'Cloud du Coeur'
+theme: "hextra"
+
+params:
+  description: 'Un projet de Cloud Computing Open Source et Éthique'
+  navbar:
+    displayTitle: false
+    displayLogo: false
+
+  footer:
+      displayCopyright: false
+      displayPoweredBy: false
+      width: normal
+
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+
+  page:
+    # full (100%), wide (90rem), normal (1280px)
+    width: full
+  editURL:
+    enable: true
+    base: "https://github.com/cloudducoeur/documentation"
+  font:
+    provider: google
+    family: Bricolage Grotesque
+  customCSS:
+    - css/custom-font.css
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+enableInlineShortcodes: true
+
+menu:
+  main:
+
+    - identifier: documentation
+      name: Documentation
+      pageRef: /doc
+      weight: 1
+    - identifier: tutorials
+      name: Guides
+      pageRef: /guides
+      weight: 2
+    - name: GitHub
+      weight: 7
+      url: "https://github.com/cloudducoeur/documentation"
+      params:
+        icon: github
+    - name: Website
+      weight: 8
+      url: "https://cloudducoeur.org"
+      params:
+        icon: globe-alt
+    - name: Search
+      weight: 6
+      params:
+        type: search
