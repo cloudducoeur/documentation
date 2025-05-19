@@ -2,9 +2,9 @@
 type: docs
 title: Cloud du Coeur - Documentation publique
 layout: hextra-home
-disableSidebar: false
+disableSidebar: true
 type: default
-width: normal
+width: wide
 ---
 
 {{< hextra/hero-badge link="https://github.com/cloudducoeur/documentation">}}

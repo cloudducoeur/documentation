@@ -56,6 +56,11 @@ menu:
       url: "https://github.com/cloudducoeur/documentation"
       params:
         icon: github
+    - name: GitHub
+      weight: 7
+      url: "https://github.com/cloudducoeur/documentation"
+      params:
+        icon: github
     - name: Website
       weight: 8
       url: "https://cloudducoeur.org"
