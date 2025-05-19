@@ -2,11 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/en-savoir-plus/cest-quoi/les-services/</loc>
+  </url><url>
+    <loc>http://localhost:1313/en-savoir-plus/cest-quoi/sous-le-capot/</loc>
+  </url><url>
     <loc>http://localhost:1313/en-savoir-plus/cest-quoi/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>
     <loc>http://localhost:1313/en-savoir-plus/comment-ca-marche/</loc>
+  </url><url>
+    <loc>http://localhost:1313/contribuer/</loc>
   </url><url>
     <loc>http://localhost:1313/en-savoir-plus/</loc>
   </url><url>
