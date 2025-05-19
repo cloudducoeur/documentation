@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cloud du Coeur – C&#39;est quoi ?</title>
+    <title>Cloud du Coeur - Documentation – C&#39;est quoi ?</title>
     <link>http://localhost:1313/en-savoir-plus/cest-quoi/</link>
-    <description>Recent content in C&#39;est quoi ? on Cloud du Coeur</description>
+    <description>Recent content in C&#39;est quoi ? on Cloud du Coeur - Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     
@@ -13,20 +13,6 @@
         
       
     
-    
-    <item>
-      <title>Les services</title>
-      <link>http://localhost:1313/en-savoir-plus/cest-quoi/les-services/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/en-savoir-plus/cest-quoi/les-services/</guid>
-      <description>
-        
-        
-        &lt;p&gt;&lt;img src=&#34;services.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-
-      </description>
-    </item>
     
     <item>
       <title>Sous le capot</title>

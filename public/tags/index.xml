@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cloud du Coeur – Tags</title>
+    <title>Cloud du Coeur - Documentation – Tags</title>
     <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on Cloud du Coeur</description>
+    <description>Recent content in Tags on Cloud du Coeur - Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     

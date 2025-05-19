@@ -1,6 +1,6 @@
 baseURL: 'https://doc.aucoeurdu.cloud/'
 languageCode: 'fr-fr'
-title: 'Cloud du Coeur'
+title: 'Cloud du Coeur - Documentation'
 theme: "hextra"
 
 params:
