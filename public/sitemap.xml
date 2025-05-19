@@ -15,5 +15,7 @@
     <loc>http://localhost:1313/exemples/</loc>
   </url><url>
     <loc>http://localhost:1313/guides/</loc>
+  </url><url>
+    <loc>http://localhost:1313/doc/bien-commencer/</loc>
   </url>
 </urlset>

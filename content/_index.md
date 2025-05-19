@@ -27,9 +27,38 @@ width: normal
 {{< /hextra/hero-subtitle >}}
 </div>
 
+<!-- <div class="hx:mb-6">
+{{< hextra/hero-button text="Pour bien commencer" link="doc/bien-commencer" >}}
+</div> -->
+
+
 <div class="hx-mt-6"></div>
 
 {{< hextra/feature-grid >}}
+  <!-- {{< hextra/feature-card
+    title="Plateforme"
+    subtitle="L'infrastructure rendue ouverte et accessible en un clic."
+    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
+    image="img/cdc-login-page-capture.png"
+    imageClass="hx:top-[40%] hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 97, 202, 0.15),hsla(0,0%,100%,0));"
+  >}}
+  {{< hextra/feature-card
+    title="Edge Computing"
+    subtitle="L'infrastructure rendue ouverte et accessible en un clic."
+    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
+    image="img/cdc-grafana-sondes-capture.png"
+    imageClass="hx:top-[40%] hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 97, 202, 0.15),hsla(0,0%,100%,0));"
+  >}}
+  {{< hextra/feature-card
+    title="Expertise"
+    subtitle="L'infrastructure rendue ouverte et accessible en un clic."
+    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
+    image="img/cdc-login-page-capture.png"
+    imageClass="hx:top-[40%] hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 97, 202, 0.15),hsla(0,0%,100%,0));"
+  >}} -->
   {{< hextra/feature-card
     title="Découvrir"
     subtitle="Vous souhaitez en savoir plus sur le Cloud du Coeur, cette section est faite pour vous."
