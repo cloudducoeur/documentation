@@ -16,7 +16,3 @@ Suite à cela, plusieurs autres objectifs se sont ajoutés :
 - Réduire drastiquement les coûts d'hébergement
 - Sécuriser la donnée
 - Autonomie stratégique sur le long terme
-
-En savoir plus :
-
-- [Sous le capot](./sous-le-capot)

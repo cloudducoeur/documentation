@@ -14,33 +14,5 @@
       
     
     
-    <item>
-      <title></title>
-      <link>http://localhost:1313/en-savoir-plus/cest-quoi/les-services/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/en-savoir-plus/cest-quoi/les-services/</guid>
-      <description>
-        
-        
-        &lt;h1&gt;Les services du Cloud du Coeur&lt;/h1&gt;
-      </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/en-savoir-plus/cest-quoi/sous-le-capot/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/en-savoir-plus/cest-quoi/sous-le-capot/</guid>
-      <description>
-        
-        
-        &lt;h1&gt;Le Cloud du Coeur repose sur &amp;hellip;&lt;/h1&gt;&lt;p&gt;
-    &lt;img src=&#34;../cdc-explication2.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-
-      </description>
-    </item>
-    
   </channel>
 </rss>

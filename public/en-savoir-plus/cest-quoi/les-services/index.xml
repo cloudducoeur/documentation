@@ -1,0 +1,18 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud du Coeur – Les services</title>
+    <link>http://localhost:1313/en-savoir-plus/cest-quoi/les-services/</link>
+    <description>Recent content in Les services on Cloud du Coeur</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    
+	  <atom:link href="http://localhost:1313/en-savoir-plus/cest-quoi/les-services/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>
