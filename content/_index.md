@@ -35,18 +35,27 @@ width: wide
     icon="cloud"
     subtitle="Vous souhaitez en savoir plus sur le Cloud du Coeur, cette section est faite pour vous."
     link="en-savoir-plus"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(58, 56, 113, 0.1),rgba(27, 0, 16, 0.08));"
+    image="img/cdc-illustration-decouvrir.png"
+    imageClass="hx:top-[20%] hx:left-[24px] hx:w-[90%] hx:sm:w-[110%] hx:dark:opacity-80"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 97, 217, 0.15),hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
     title="Documentation"
+    link="doc"
     icon="document"
     subtitle="Vous souhaitez créer des ressources sur le Cloud du Coeur, nous vous invitons à consulter la documentation pour bien commencer."
-    link="doc"
+    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
+    image="img/cdc-illustration-doc.png"
+    imageClass="hx:top-[20%] hx:left-[24px] hx:w-[90%] hx:sm:w-[110%] hx:dark:opacity-80"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 97, 217, 0.15),hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
     title="Guides"
     subtitle="Découvrez les guides de contribution pour participer au projet ou simplement consommer facilement certains services."
     link="guides"
+    image="img/cdc-illustration-guides.png"
+    imageClass="hx:top-[20%] hx:left-[24px] hx:w-[90%] hx:sm:w-[110%] hx:dark:opacity-80"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 97, 217, 0.15),hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
     title="Exemples"
