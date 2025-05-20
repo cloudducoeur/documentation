@@ -7,7 +7,7 @@ type: docs
 
 Cette documentation concerne l'installation de la ligne de commande OpenStack, OpenStack étant le logiciel utilisé pour faire tourner le Cloud du Coeur.
 
-<img src="./cdc-illustration-cli.png" alt="CLI OpenStack" style="width: 50%;">
+<img src="./cdc-illustration-cli.png" alt="CLI OpenStack" style="width: 30%;">
 
 ## L'installer
 
