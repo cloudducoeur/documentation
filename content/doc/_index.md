@@ -2,6 +2,7 @@
 title: 'La documentation du Cloud du Coeur'
 description:
 draft: false
+disableSidebar: true
 type: docs
 ---
 

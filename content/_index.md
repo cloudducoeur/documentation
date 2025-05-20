@@ -51,7 +51,7 @@ width: wide
   >}}
   {{< hextra/feature-card
     title="Guides"
-    subtitle="Découvrez les guides de contribution pour participer au projet ou simplement consommer facilement certains services."
+    subtitle="Découvrez les guides pour connaître les bonnes pratiques d'utilisation du Cloud du Coeur."
     link="guides"
     image="img/cdc-illustration-guides.png"
     imageClass="hx:top-[20%] hx:left-[24px] hx:w-[90%] hx:sm:w-[110%] hx:dark:opacity-80"
