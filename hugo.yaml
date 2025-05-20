@@ -43,9 +43,13 @@ menu:
       name: Documentation
       pageRef: /doc
       weight: 1
-    - identifier: tutorials
+    - identifier: guides
       name: Guides
       pageRef: /guides
+      weight: 2
+    - identifier: aide
+      name: Aide
+      pageRef: /doc/aide
       weight: 2
     - name: GitHub
       weight: 7
@@ -67,6 +71,16 @@ menu:
       url: "https://console.aucoeurdu.cloud"
       params:
         icon: home
+    - name: Observabilite
+      weight: 8
+      url: "https://observabilite.aucoeurdu.cloud"
+      params:
+        icon: chart-bar
+    - name: Status page
+      weight: 8
+      url: "https://status.infra.rdcnet.org/status/an"
+      params:
+        icon: check
     - name: Search
       weight: 6
       params:
