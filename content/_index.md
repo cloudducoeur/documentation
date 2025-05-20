@@ -39,6 +39,7 @@ width: wide
   >}}
   {{< hextra/feature-card
     title="Documentation"
+    icon="document"
     subtitle="Vous souhaitez créer des ressources sur le Cloud du Coeur, nous vous invitons à consulter la documentation pour bien commencer."
     link="doc"
   >}}
