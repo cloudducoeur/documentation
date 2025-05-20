@@ -56,9 +56,11 @@ width: wide
     title="Comment contribuer ?"
     subtitle="Si vous souhaitez rejoindre l'équipe du Cloud du Coeur et contribuer au projet, c'est ici!"
     link="contribuer"
+    icon="pencil-alt"
   >}}
   {{< hextra/feature-card
     title="Post-mortems"
+    icon="document-check"
     subtitle="Parce que l'informatique, ça reste binaire, parfois ça ne fonctionne pas..."
     link="post-mortems"
   >}}
