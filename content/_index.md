@@ -60,6 +60,7 @@ width: wide
   >}}
   {{< hextra/feature-card
     title="Exemples"
+    icon="document-add"
     subtitle="Parce qu'avec des exemples, c'est parfois mieux pour comprendre."
     link="exemples"
   >}}
