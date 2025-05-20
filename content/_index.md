@@ -53,6 +53,7 @@ width: wide
     title="Guides"
     subtitle="Découvrez les guides pour connaître les bonnes pratiques d'utilisation du Cloud du Coeur."
     link="guides"
+    icon="document-text"
     image="img/cdc-illustration-guides.png"
     imageClass="hx:top-[20%] hx:left-[24px] hx:w-[90%] hx:sm:w-[110%] hx:dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 97, 217, 0.15),hsla(0,0%,100%,0));"
