@@ -14,4 +14,5 @@ type: docs
   {{< card link="aide" title="Trouver de l'aide" subtitle="Vous êtes perdu, regardez comment contacter le support." icon="support" >}}
   {{< card link="cli" title="OpenStack CLI" subtitle="Jouez avec vos ressources dans le Cloud du Coeur depuis votre terminal." icon="command-line" >}}
   {{< card link="contribuer" title="Contribuer" subtitle="Vous souhaitez contribuer à cette documentation ou au projet directement?" icon="pencil-alt" >}}
+  {{< card link="charte-graphique" title="Charte graphique" subtitle="Vous voulez voir des beaux dessins?" icon="eye" >}}
 {{< /cards >}}
