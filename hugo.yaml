@@ -24,12 +24,8 @@ params:
     width: full
   editURL:
     enable: true
-    base: "https://github.com/cloudducoeur/documentation"
-  font:
-    provider: google
-    family: Bricolage Grotesque
-  customCSS:
-    - css/custom-font.css
+    base: "https://github.com/cloudducoeur/documentation/edit/main"
+
 
 markup:
   goldmark:
