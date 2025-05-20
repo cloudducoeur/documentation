@@ -61,6 +61,7 @@ width: wide
   >}} -->
   {{< hextra/feature-card
     title="Découvrir"
+    icon="cloud"
     subtitle="Vous souhaitez en savoir plus sur le Cloud du Coeur, cette section est faite pour vous."
     link="en-savoir-plus"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(58, 56, 113, 0.1),rgba(27, 0, 16, 0.08));"
