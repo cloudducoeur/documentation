@@ -3,6 +3,8 @@ languageCode: 'fr-fr'
 title: 'Cloud du Coeur - Documentation'
 theme: "hextra"
 
+enableGitInfo: true
+
 params:
   description: 'Un projet de Cloud Computing Open Source et Éthique'
   navbar:
@@ -15,17 +17,14 @@ params:
       displayCopyright: true
       displayPoweredBy: false
       width: normal
-
   displayUpdatedDate: true
   dateFormat: "January 2, 2006"
-
   page:
     # full (100%), wide (90rem), normal (1280px)
     width: full
   editURL:
     enable: true
     base: "https://github.com/cloudducoeur/documentation/edit/main"
-
 
 markup:
   goldmark:
@@ -38,7 +37,6 @@ enableInlineShortcodes: true
 
 menu:
   main:
-
     - identifier: documentation
       name: Documentation
       pageRef: /doc
