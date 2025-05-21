@@ -15,6 +15,8 @@ L'URL de la console est disponible sous le format :
 
 Maintenant, veuillez vous connecter avec votre identifiant fournit et votre mot de passe.
 
+![](./cdc-cloudpanel-login-page-capture.png)
+
 {{< callout type="info" >}}
   A noter que chaque console mise à disposition dispose de son tableau de bord de status pour visualiser rapidement l'état de l'ensemble des services qui vous sont mis à disposition.
 
