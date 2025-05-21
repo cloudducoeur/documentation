@@ -21,3 +21,9 @@ Suivez étape par étape pour déployer différents types de services déjà doc
 ## Tutoriels
 
 Vous cherchez de l'aide précise sur un sujet, il existe déjà peut être un tutoriel pour vous aider.
+
+### Hébergement Web (Wordpress, PHP, HTML)
+
+{{< cards >}}
+  {{< card link="tuto-hebergement-web-cloudpanel" title="Accéder à CloudPanel" subtitle="Vous chercher à accéder à la console d'hébergement de votre application" icon="user" >}}
+{{< /cards >}}
