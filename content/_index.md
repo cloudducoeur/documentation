@@ -47,7 +47,7 @@ width: wide
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     image="img/cdc-illustration-doc.png"
     imageClass="hx:top-[20%] hx:left-[24px] hx:w-[90%] hx:sm:w-[110%] hx:dark:opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 97, 217, 0.15),hsla(0,0%,100%,0));"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 230, 97, 0.15),hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
     title="Guides"
