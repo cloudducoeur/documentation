@@ -86,3 +86,14 @@ menu:
       weight: 6
       params:
         type: search
+  sidebar:
+    - name: Références
+      params:
+        type: separator
+      weight: 1
+    - name: "En savoir plus"
+      pageRef: "/en-savoir-plus/cest-quoi/"
+      weight: 2
+    - name: "Documentation ↗"
+      url: "/doc/"
+      weight: 3

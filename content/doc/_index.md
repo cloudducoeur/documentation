@@ -1,9 +1,11 @@
 ---
 title: 'La documentation du Cloud du Coeur'
-description:
+linkTitle: Documentation
 draft: false
 disableSidebar: true
 type: docs
+cascade:
+  type: docs
 ---
 
 {{< cards >}}

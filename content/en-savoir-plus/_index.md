@@ -1,8 +1,10 @@
 ---
 title: 'Découvrir le Cloud du Coeur'
-description:
+linkTitle: Découvrir
 draft: false
 type: docs
+cascade:
+  type: docs
 ---
 
 Vous souhaitez en savoir plus sur "*Le Cloud du Coeur*", ici vous trouverez toutes les informations concernant ce projet.
