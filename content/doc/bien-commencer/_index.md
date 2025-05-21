@@ -29,4 +29,6 @@ Pour vous connecter, vous devez aller sur :
 
 - [https://console.aucoeurdu.cloud](https://console.aucoeurdu.cloud)
 
+![](./cdc-login-page.png)
+
 {{% /steps %}}
