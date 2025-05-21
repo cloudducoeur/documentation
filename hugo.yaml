@@ -2,7 +2,7 @@ baseURL: 'https://doc.aucoeurdu.cloud/'
 languageCode: 'fr-fr'
 title: 'Cloud du Coeur - Documentation'
 theme: "hextra"
-
+enableRobotsTXT: false
 enableGitInfo: true
 
 params:
@@ -22,6 +22,9 @@ params:
   page:
     # full (100%), wide (90rem), normal (1280px)
     width: full
+    nextPrevInSectionSortOrder: desc
+    nextPrevSortOrder: desc
+
   editURL:
     enable: true
     base: "https://github.com/cloudducoeur/documentation/edit/main"
