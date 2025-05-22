@@ -7,6 +7,8 @@ enableGitInfo: true
 
 params:
   description: 'Un projet de Cloud Computing Open Source et Éthique'
+  meta:
+    
   navbar:
     displayTitle: false
     displayLogo: true
