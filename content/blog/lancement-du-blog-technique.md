@@ -10,7 +10,7 @@ tags:
 excludeSearch: true
 ---
 
-<img src="./cdc-illustration-lancement.png" alt="Lancement du blog" style="width: 40%;">
+<img src="/img/cdc-illustration-lancement.png" alt="Lancement du blog" style="width: 35%;">
 
 Nous sommes fiers d’annoncer le lancement de notre blog technique dédié au projet du **Cloud du Coeur** !
 
