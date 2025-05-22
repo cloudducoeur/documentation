@@ -5,7 +5,7 @@ draft: false
 type: docs
 ---
 
-<img src="./cdc-illustration-developper.png" alt="Développer" style="width: 50%;">
+<img src="./cdc-illustration-developper.png" alt="Développer" style="width: 35%;">
 
 Pour automatiser la gestion de votre infrastructure sur le Cloud du Coeur avec OpenStack, vous pouvez utiliser des outils d’infrastructure as code comme [Terraform](https://developer.hashicorp.com/terraform), [OpenTofu](https://opentofu.org/) ou [Pulumi](https://www.pulumi.com/).
 
