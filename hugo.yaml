@@ -94,7 +94,13 @@ menu:
         type: separator
       weight: 1
     - name: "En savoir plus"
-      pageRef: "/en-savoir-plus/cest-quoi/"
+      url: "/en-savoir-plus/cest-quoi/"
+      weight: 2
+    - name: "CLI"
+      url: "https://docs.openstack.org/python-openstackclient/latest/cli/index.html"
+      weight: 2
+    - name: "API"
+      url: "https://docs.openstack.org/api-quick-start/"
       weight: 2
     - name: "Documentation ↗"
       url: "/doc/"
