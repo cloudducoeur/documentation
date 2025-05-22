@@ -23,3 +23,7 @@ Maintenant, veuillez vous connecter avec votre identifiant fournit et votre mot 
   Exemple : [https://status.infra.rdcnet.org/status/adXX](https://status.infra.rdcnet.org/status/adXX)
 
 {{< /callout >}}
+
+Une fois connecté(e), vous accéderez à ce tableau de bord :
+
+![](./cdc-cloudpanel-dashboard-capture.png)
