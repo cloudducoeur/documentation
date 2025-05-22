@@ -10,6 +10,8 @@ tags:
 excludeSearch: true
 ---
 
+<img src="./cdc-illustration-lancement.png" alt="Lancement du blog" style="width: 40%;">
+
 Nous sommes fiers d’annoncer le lancement de notre blog technique dédié au projet du **Cloud du Coeur** !
 
 À travers ce *blog*, nous souhaitons partager avec la communauté technique francophone **nos retours d’expérience**, **nos avancées** et **nos réflexions** autour de l’infrastructure, d’OpenStack, de Kubernetes, du réseau, de l’automatisation et de tous les sujets qui font vivre notre plateforme.
