@@ -126,6 +126,7 @@ npm install @pulumi/openstack
 #### Développer votre infrastructure dans le fichier `index.ts` (ou équivalent)
 
 Pour plus d’informations, voir la [doc Pulumi OpenStack](https://www.pulumi.com/registry/packages/openstack/).
+
 {{< /tab >}}
 
 {{% /steps %}}
