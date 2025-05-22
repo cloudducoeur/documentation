@@ -73,6 +73,23 @@ openstack image list
 
 {{< /tab >}}
 
+{{< tab >}}
+Il faudra se connecter dans l'interface (console) et récupérer votre fichier `.<project name>-openrc.sh`. Ce fichier sera à ajouter dans `$HOME/.<project name>-openrc.sh`.
+
+Une fois que c'est fait, pour utiliser la CLI et connecter cette dernière à la plateforme du *Cloud du Coeur*, il faut charger les informations :
+
+```bash
+source $HOME/.<project name>-openrc.sh
+```
+
+Vérifier que ça fonctionne en listant les images disponibles dans le catalogue :
+
+```bash
+openstack image list
+```
+
+{{< /tab >}}
+
 {{< /tabs >}}
 
 {{% /steps %}}
