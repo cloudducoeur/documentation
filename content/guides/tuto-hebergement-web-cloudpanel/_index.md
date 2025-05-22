@@ -27,3 +27,9 @@ Maintenant, veuillez vous connecter avec votre identifiant fournit et votre mot 
 Une fois connecté(e), vous accéderez à ce tableau de bord :
 
 ![](./cdc-cloudpanel-dashboard-capture.png)
+
+Cette page ce découpe comme suit :
+
+- **Tableau de bord** : Visualiser rapidement les informations de la machine hébergeant mon site internet, pratique notamment dans un cas où le site est lent, ça évite ainsi de devoir contacter le support.
+- **Sites** : Comme son nom l'indique, c'est ici que vous allez pouvoir gérer vos sites (gérer, créer, supprimer).
+- **Accès administrateur-trice** : Permet d'agir sur les services faisant tourner votre site, par exemple : redémarrer le service `nginx` sans avoir à passer également par le support.
