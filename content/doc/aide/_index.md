@@ -9,5 +9,7 @@ type: docs
 
 Vous rencontrez des problèmes sur les différents produits, vous pouvez contacter l'équipe du Cloud du Coeur via :
 
-- [Slack]()
-- [E-mail](email://cloudducoeur@restosducoeur.org)
+{{< cards >}}
+  {{< card link="/" title="Sur Slack" subtitle="C'est l'endroit à privilégier, c'est là où l'équipe est là plus réactive." icon="slack" >}}
+  {{< card link="mail://cloudducoeur@restosducoeur.org" title="Par e-mail" subtitle="C'est peut-être un truc d'ancien, mais on les regardes quand-même!" icon="mail" >}}
+{{< /cards >}}
