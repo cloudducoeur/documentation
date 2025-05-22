@@ -7,6 +7,8 @@ type: docs
 
 Si vous souhaitez apporter votre contribution, suivez ce guide pour vous aider à bien commencer et à ajouter vos modifications !
 
+<img src="./cdc-illustration-contribuer.png" alt="Contribuer" style="width: 40%;">
+
 ## Familiarisez-vous avec le guide de style
 
 Il n'est pas obligatoire de lire le guide de style, mais il est important de s'y référer lors de vos contributions.
