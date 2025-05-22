@@ -31,6 +31,13 @@ params:
     enable: true
     base: "https://github.com/cloudducoeur/documentation/edit/main"
 
+  blog:
+    list:
+      displayTags: true
+      # date | lastmod | publishDate | title | weight
+      sortBy: date
+      sortOrder: desc # or "asc"
+
 markup:
   goldmark:
     renderer:
@@ -54,6 +61,10 @@ menu:
       name: Aide
       pageRef: /doc/aide
       weight: 2
+    - identifier: blog
+      name: Blog
+      pageRef: /blog
+      weight: 3
     - name: GitHub
       weight: 7
       url: "https://github.com/cloudducoeur/documentation"
