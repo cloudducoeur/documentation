@@ -9,6 +9,8 @@ Cette documentation concerne l'installation de la ligne de commande OpenStack, O
 
 <img src="./cdc-illustration-cli.png" alt="CLI OpenStack" style="width: 25%;">
 
+{{% steps %}}
+
 ## L'installer
 
 En fonction du système d'exploitation sur lequel vous êtes, vous trouver la documentation d'installation associée.
@@ -46,3 +48,5 @@ source $HOME/.keystonerc
 {{< /tab >}}
 
 {{< /tabs >}}
+
+{{% /steps %}}
