@@ -11,10 +11,6 @@ Pour automatiser la gestion de votre infrastructure sur le Cloud du Coeur avec O
 
 Voici comment initialiser un dépôt avec chacun de ces outils :
 
-Pour automatiser la gestion de votre infrastructure sur le Cloud du Coeur avec OpenStack, vous pouvez utiliser des outils d’infrastructure as code comme [Terraform](https://developer.hashicorp.com/terraform), [OpenTofu](https://opentofu.org/) ou [Pulumi](https://www.pulumi.com/).
-
-Voici comment initialiser un dépôt avec chacun de ces outils :
-
 {{< tabs items="Terraform,OpenTofu,Pulumi" >}}
 
 {{< tab >}}
