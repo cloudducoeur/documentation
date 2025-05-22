@@ -1,0 +1,14 @@
+services:
+  hugo:
+    container_name: hugo
+    image: "peaceiris/hugo:v0.147.3-mod"
+    ports:
+      - 127.0.0.1:1313:1313
+    volumes:
+      - ${PWD}:/src
+    command:
+      - server
+      - --bind=0.0.0.0
+      - --buildDrafts
+      - --disableFastRender
+      - --logLevel=debug
