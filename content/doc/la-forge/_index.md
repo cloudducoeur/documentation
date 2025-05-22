@@ -1,8 +1,8 @@
 ---
-title: "CI-CD"
+title: "La forge"
 description:
 draft: false
 type: docs
 ---
 
-![](./logo-la-forge.png)
+![](./cdc-la-forge.png)
