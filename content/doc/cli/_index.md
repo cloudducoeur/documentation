@@ -28,6 +28,26 @@ brew install openstackclient
 
 {{< /tab >}}
 
+{{< tab >}}
+Sur **GNU/Linux**, pour installer la CLI `openstack`, l'installation se fait via les packages `python3` associés.
+
+Pour installer la CLI :
+
+#### Sur Ubuntu (24.04, 22.04 ou 20.04)
+
+```bash
+sudo apt install python python3-dev python3-pip
+sudo pip install python3-openstackclient
+```
+
+#### Sur CentOS (8, 9)
+
+```bash
+sudo dnf install python-openstackclient
+```
+
+{{< /tab >}}
+
 {{< /tabs >}}
 
 ## S'authentifier
@@ -37,12 +57,18 @@ Une fois que la CLI est installée, vous devez configurer la CLI en fonction de 
 {{< tabs items="macOS,GNU/Linux,Windows" >}}
 
 {{< tab >}}
-Il faudra se connecter dans l'interface (console) et récupérer votre fichier `.keystonerc`. Ce fichier sera à ajouter dans `$HOME/.keystonerc`.
+Il faudra se connecter dans l'interface (console) et récupérer votre fichier `.<project name>-openrc.sh`. Ce fichier sera à ajouter dans `$HOME/.<project name>-openrc.sh`.
 
 Une fois que c'est fait, pour utiliser la CLI et connecter cette dernière à la plateforme du *Cloud du Coeur*, il faut charger les informations :
 
 ```bash
-source $HOME/.keystonerc
+source $HOME/.<project name>-openrc.sh
+```
+
+Vérifier que ça fonctionne en listant les images disponibles dans le catalogue :
+
+```bash
+openstack image list
 ```
 
 {{< /tab >}}
