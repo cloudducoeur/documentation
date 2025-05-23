@@ -62,7 +62,7 @@ menu:
       pageRef: /doc/aide
       weight: 2
     - identifier: blog
-      name: Blog
+      name: Tech Blog
       pageRef: /blog
       weight: 3
     - name: GitHub
