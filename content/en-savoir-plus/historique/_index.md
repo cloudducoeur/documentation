@@ -28,8 +28,14 @@ Ce PC qui traînait dans un coin possèdait tout un lot de problèmes :
 
 Une petite baie a été récupérée ainsi que tout un lot de serveurs anciens. Ces serveurs ont permis de construire la première version du premier datacenter du Cloud du Coeur. Dans le but d'héberger de manière "sécurisée", les services de l'antenne d'Eure et Loir.
 
+![](./cdc-histoire-dc-aux-wc.png)
+
+C'est aussi ça l'associatif, de la ***débrouille***... C'est d'ailleurs ce qui va définir la continuité du projet tout en ajoutant une grosse par de **professionnalisme**.
+
 ### La région Centre-Val de Loire au centre
 
 Rapidement, la mise en place de ces services ont été connus outre les murs de l'antenne du 28, les autres antennes de la région Centre-Val de Loire souhaitées également utiliser ces applications. Ainsi nous avons créé la première version du futur datacenter du Cloud du Coeur.
+
+![](./cdc-histoire-region-centre.png)
 
 {{% /steps %}}
