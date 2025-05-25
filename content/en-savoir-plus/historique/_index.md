@@ -24,6 +24,8 @@ Ce PC qui traînait dans un coin possèdait tout un lot de problèmes :
 - *Pas de surveillance*
 - *Documentation absente*
 
+![](./cdc-histoire-pc-serveur.png)
+
 ### Le "DC aux WC"
 
 Une petite baie a été récupérée ainsi que tout un lot de serveurs anciens. Ces serveurs ont permis de construire la première version du premier datacenter du Cloud du Coeur. Dans le but d'héberger de manière "sécurisée", les services de l'antenne d'Eure et Loir.
