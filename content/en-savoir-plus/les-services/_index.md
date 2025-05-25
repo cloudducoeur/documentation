@@ -1,5 +1,6 @@
 ---
 title: "Les services"
+linkTitle: "Les services"
 description:
 draft: false
 type: docs
