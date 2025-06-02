@@ -12,9 +12,9 @@ Réduire drastiquement les coûts d'hébergement tout en fournissant une infrast
 
 ## Les points fondateurs
 
-### Maîtrise des Coûts
+### Maîtrise des coûts
 
-#### Priorité absolue : Les dépenses
+#### Priorité absolue : L'argent
 
 L’infrastructure a pour vocation première de réduire les coûts globaux liés à l’hébergement. Chaque décision technique est guidée par la maîtrise budgétaire.
 
