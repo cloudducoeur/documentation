@@ -14,21 +14,21 @@ Réduire drastiquement les coûts d'hébergement tout en fournissant une infrast
 
 ### Maîtrise des Coûts
 
-**Priorité absolue : Les dépenses**
+#### Priorité absolue : Les dépenses
 
 L’infrastructure a pour vocation première de réduire les coûts globaux liés à l’hébergement. Chaque décision technique est guidée par la maîtrise budgétaire.
 
-**Dons & réutilisation**
+#### Dons & réutilisation
 
 99% de l’infrastructure repose sur du matériel issu de dons. L’acquisition de matériel doit prioritairement passer par la récupération, sauf pour les consommables. Une stratégie active de recherche de dons doit être mise en place.
 
 ### Fiabilité et performances
 
-**Disponibilité**
+#### Disponibilité
 
 La plateforme doit répondre aux besoins métiers avec des garanties minimales de disponibilité.
 
-**Contrôle de la consommation**
+#### Contrôle de la consommation
 
 Les machines ne doivent être allumées qu’en cas de besoin. La consommation énergétique doit être monitorée et optimisée, car elle représente le seul coût variable direct.
 
@@ -38,32 +38,35 @@ Fourniture d’une infrastructure mutualisée inspirée des standards AWS, Azure
 
 ### Valeurs et culture
 
-**Collaboration & communication**
+#### Collaboration & communication
 
 Approche DevOps : équipes développement et exploitation travaillent ensemble dès la conception. Responsabilité partagée du cycle de vie complet des applications.
 
-**Automatisation**
+#### Automatisation
 
 CI/CD systématique pour les déploiements (via Git, Ansible, etc.). Infrastructure as Code (IaC) pour tout ce qui peut être automatisé.
 
-**Culture du Feedback**
+#### Culture du Feedback
 
 Systèmes de monitoring et d’alerting en place. Pratique des blameless postmortems après incidents.
 
-**Documentation & transparence**
+#### Documentation & transparence
 
 Chaque brique doit être documentée, y compris :
-    - Son architecture
-    - Les alertes associées (runbook)
-    - Le dépôt Git contenant son code et README à jour
+
+- Son architecture
+
+- Les alertes associées (runbook)
+
+- Le dépôt Git contenant son code et README à jour
 
 ### Technologies et innovations
 
-**Open Source d’abord**
+#### Open Source d’abord
 
 Aucune licence commerciale coûteuse ne peut être envisagée (ex. VMWare). Le choix se porte sur des solutions libres et pérennes (Proxmox, OpenStack, Linux, Ceph, etc.).
 
-**Innovation libre**
+#### Innovation libre
 
 La plateforme sert aussi de bac à sable pour expérimenter des solutions bénéfiques pour l’association. Toute proposition d’innovation est encouragée, tant qu’elle respecte les principes de sobriété, de simplicité et de partage.
 
@@ -72,8 +75,10 @@ La plateforme sert aussi de bac à sable pour expérimenter des solutions béné
 Les déploiements doivent suivre les principes Agile pour favoriser l'amélioration continue. L'équipe infrastructure agit en support et conseil technique auprès des autres associations.
 
 L’ensemble du projet repose sur une approche communautaire et solidaire :
-    - Pas de savoir ou d’outil "privatisé"
-    - Toute contribution doit être partagée, documentée, et accessible
+
+- Pas de savoir ou d’outil "privatisé"
+
+- Toute contribution doit être partagée, documentée, et accessible
 
 ## Conclusion
 
