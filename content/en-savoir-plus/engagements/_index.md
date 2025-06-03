@@ -7,6 +7,6 @@ type: docs
 ---
 
 - **Écoconception** : pas d’achats inutiles, matériel revalorisé.
-- **Open Source** : 100 % technologies libres.
+- **Open Source** : 100 % technologies libres ou Open Source.
 - **Accessibilité** : formation et documentation claire pour les bénévoles.
 - **Autonomie Stratégique** : nos IPs, notre backbone, notre cloud.
