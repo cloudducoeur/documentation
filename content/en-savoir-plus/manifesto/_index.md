@@ -6,11 +6,11 @@ draft: false
 type: docs
 ---
 
+<img src="./cdc-illustration-manifesto.png" alt="Illustration du manifeste" width="35%" />
+
 ## Objectif principal
 
 Réduire drastiquement les coûts d'hébergement tout en fournissant une infrastructure cloud privée fiable, durable, ouverte et mutualisée, au service des associations départementales et de l'association nationale des Restos du Cœur.
-
-<img src="./cdc-illustration-manifesto.png" alt="Illustration du manifeste" width="50%" />
 
 ## Les points fondateurs
 
