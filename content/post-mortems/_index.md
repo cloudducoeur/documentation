@@ -5,7 +5,7 @@ draft: false
 type: docs
 ---
 
-Parce que l'informatique n'est que binaire, parfois ça ne marche pas. Nous avons pour volonté de partager à les détails des interruptions de services vécues.
+Parce que l’informatique, c’est du binaire : soit ça marche, soit ça fait grève. Quand ça déraille, on tient à informer les associations des coulisses de ces petites pannes capricieuses.
 
 <img src="./cdc-illustration-post-mortems.png" alt="Post-mortems" style="width: 30%;">
 
