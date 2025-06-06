@@ -23,6 +23,7 @@ Objectifs :
 - Gagner en autonomie (statégie sur le long terme)
 - Mettre les compétences des bénévoles IT au service de la solidarité
 - Une infrastructure *répartie*, *redondante* et *résiliente*
+- Fournir une base solide pour le futur de l'informatique des Restos
 
 ## Les principes fondateurs
 
@@ -46,7 +47,7 @@ Elle fournit :
 - De l’IaaS (infrastructure as a service) : VMs, stockage, réseau
 - Des services de monitoring, gestion d’accès, CI/CD, etc.
 - Du bare-metal as a service
-- Des outils pour l’IoT (ex : sondes de température dans les frigos)
+- Des outils pour l’IoT (ex : sondes de température)
 - Des outils pour l’observabilité, la sécurité, l’automatisation…
 
 ## Pourquoi c'est important ?
