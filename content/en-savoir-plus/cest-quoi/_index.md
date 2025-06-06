@@ -22,6 +22,7 @@ Objectifs :
 - Réduire les coûts
 - Gagner en autonomie (statégie sur le long terme)
 - Mettre les compétences des bénévoles IT au service de la solidarité
+- Une infrastructure *répartie*, *redondante* et *résiliente*
 
 ## Les principes fondateurs
 
@@ -30,8 +31,6 @@ Objectifs :
 - Automatisation, transparence, et documentation
 - Technologies ouvertes
 - Accès facilité aux différents acteurs (bénévoles techs, prestataires, etc)
-
-Objectif : une infrastructure *répartie*, *redondante* et *résiliente*
 
 ## Qu’est-ce que c’est concrètement ?
 
