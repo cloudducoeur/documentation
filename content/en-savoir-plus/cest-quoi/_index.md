@@ -7,4 +7,49 @@ type: docs
 
 Le *Cloud du Coeur* est parti d'une idée, celle de rendre l'accès à l'infrastructure ***ouverte*** à toute personne technique au sein des [Restos du Coeur](https://www.restosducoeur.org/) dans un but d'**effort concentré**.
 
+Pour les plus novices, le "Cloud du Cœur" est un projet informatique initié par des bénévoles des Restos du Cœur pour construire une infrastructure cloud éthique et la plus éconimique possible, dédiée à répondre aux besoins technologiques de l’association fiablement.
+
 ![](cdc-explication1.png)
+
+## Pourquoi ?
+
+L’informatique est devenue vitale pour le fonctionnement des Restos (gestion des bénévoles, des centres, des repas, etc.).
+
+Le cloud public est très coûteux : aux Restos, **1 euro = 1 repas**.
+
+Objectifs :
+
+- Réduire les coûts
+- Gagner en autonomie (statégie sur le long terme)
+- Mettre les compétences des bénévoles IT au service de la solidarité
+
+## Les principes fondateurs
+
+- Éco-conception (réduction de l'empreinte écologique)
+- Indépendance technologique et autonomie stratégique
+- Automatisation, transparence, et documentation
+- Technologies ouvertes
+- Accès facilité aux différents acteurs (bénévoles techs, prestataires, etc)
+
+Objectif : une infrastructure *répartie*, *redondante* et *résiliente*
+
+## Qu’est-ce que c’est concrètement ?
+
+Une infrastructure de cloud privée construite avec :
+
+- Du matériel donné ou recyclé
+- Des technologies libres et open source (OpenStack, Kubernetes, Ceph…)
+- Une approche DevOps/infra as code
+- Une gestion communautaire et collaborative (type open source)
+
+Elle fournit :
+
+- De l’IaaS (infrastructure as a service) : VMs, stockage, réseau
+- Des services de monitoring, gestion d’accès, CI/CD, etc.
+- Du bare-metal as a service
+- Des outils pour l’IoT (ex : sondes de température dans les frigos)
+- Des outils pour l’observabilité, la sécurité, l’automatisation…
+
+## Pourquoi c'est important ?
+
+Parce qu’en mutualisant les compétences et les ressources techniques, les Restos du Cœur deviennent progressivement leur propre fournisseur cloud, économisant potentiellement des millions de repas.
