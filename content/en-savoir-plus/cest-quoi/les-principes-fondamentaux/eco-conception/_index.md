@@ -19,6 +19,16 @@ Nous réutilisons du matériel, souvent destiné au "recyclage" (destruction) po
 
 Nous utilisons des technologies libres (voir Open Source) au maximum, se basant et favorisant les fondations plutôt que des logiciels proposés par des entreprises (pour les fondations).
 
+### Allongement de la durée de vie du matériel
+
+- Les logiciels open source peuvent être adaptés à du matériel ancien ou hétérogène (contrairement aux solutions propriétaires souvent très exigeantes ou incompatibles). 
+- Possibilité d’**optimiser finement les performances** pour éviter de surconsommer.
+
+### Optimisation des ressources
+
+- Les solutions open source permettent de choisir des logiciels plus légers, plus adaptés à des environnements sobres (low-RAM, vieux CPU).
+- On peut compiler uniquement ce qui est nécessaire, réduisant la charge CPU, la mémoire utilisée, et la consommation électrique.
+
 ## Optimisation énergétique
 
 Nous cherchons à optimiser en permanance les services mis en place pour minimiser la consommation énergétique de nos machines. Dans un contexte ou plus une machine consomme, plus elle chauffe. Ainsi moins nous consommons, moins nous avons besoin de refroidir les machines en datacenter.
