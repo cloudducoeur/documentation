@@ -50,6 +50,3 @@ Elle fournit :
 - Des outils pour l’IoT (ex : sondes de température)
 - Des outils pour l’observabilité, la sécurité, l’automatisation…
 
-## Pourquoi c'est important ?
-
-Parce qu’en mutualisant les compétences et les ressources techniques, les Restos du Cœur deviennent progressivement leur propre fournisseur cloud, économisant potentiellement des millions de repas.
