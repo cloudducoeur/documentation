@@ -35,6 +35,8 @@ Objectifs :
 
 ## Qu’est-ce que c’est concrètement ?
 
+![](cdc-explication3.png)
+
 Une infrastructure de cloud privée construite avec :
 
 - Du matériel donné ou recyclé
@@ -49,5 +51,3 @@ Elle fournit :
 - Du bare-metal as a service
 - Des outils pour l’IoT (ex : sondes de température)
 - Des outils pour l’observabilité, la sécurité, l’automatisation…
-
-![](cdc-explication3.png)
