@@ -19,3 +19,7 @@ Ce dépôt contient la documentation publique du Cloud du Cœur, générée avec
 - `static/` : Fichiers statiques servis tels quels
 - `themes/` : Thèmes Hugo (Hextra)
 - `hugo.yaml` : Configuration principale du site
+
+## Contribuer
+
+Pour contribuer à cette documentation ou au projet en lui-même, veuillez suivre la documentation [suivante](https://doc.aucoeurdu.cloud/contribuer/).
