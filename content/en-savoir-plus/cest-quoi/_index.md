@@ -27,7 +27,7 @@ Objectifs :
 
 ## Les principes fondateurs
 
-- Éco-conception (réduction de l'empreinte écologique)
+- [Éco-conception](/en-savoir-plus/cest-quoi/les-principes-fondamentaux/eco-conception/) (réduction de l'empreinte écologique)
 - Indépendance technologique et autonomie stratégique
 - Automatisation, transparence, et documentation
 - Technologies ouvertes
