@@ -50,3 +50,4 @@ Elle fournit :
 - Des outils pour l’IoT (ex : sondes de température)
 - Des outils pour l’observabilité, la sécurité, l’automatisation…
 
+![](cdc-explication3.png)
