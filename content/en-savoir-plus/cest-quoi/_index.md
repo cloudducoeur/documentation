@@ -39,7 +39,7 @@ Objectifs :
 
 Une infrastructure de cloud privée construite avec :
 
-- Du matériel donné ou recyclé
+- Du matériel *donné* par les entreprises (matériel destiné au **recyclage**)
 - Des technologies libres et open source (OpenStack, Kubernetes, Ceph…)
 - Une approche DevOps/infra as code
 - Une gestion communautaire et collaborative (type open source)
