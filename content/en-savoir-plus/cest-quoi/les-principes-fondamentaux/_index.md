@@ -11,3 +11,4 @@ Le projet du Cloud du Coeur repose sur un ensemble de principes.
 - [Indépendance technologique](./independance-technologique)
 - [Automatisation](./automatisation)
 - [Open Source et logiciels libres](./oss)
+- [Le contexte](./contexte)
