@@ -15,6 +15,12 @@ Voici les principaux leviers mis en œuvre :
 
 Nous réutilisons du matériel, souvent destiné au "recyclage" (destruction) pour donner une seconde vie au matériel.
 
+Vous avez du matériel à vous séparer, ça peut nous intéresser, n'hésitez pas à nous contacter :
+
+{{< cards >}}
+  {{< card link="mail://cloudducoeur@restosducoeur.org" title="Par e-mail" subtitle="C'est peut-être un truc d'ancien, mais on les regardes quand-même!" icon="mail" >}}
+{{< /cards >}}
+
 ## Choix de solutions open source
 
 Nous utilisons des technologies libres (voir Open Source) au maximum, se basant et favorisant les fondations plutôt que des logiciels proposés par des entreprises (pour les fondations).
