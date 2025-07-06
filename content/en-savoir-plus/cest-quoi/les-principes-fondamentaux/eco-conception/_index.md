@@ -18,7 +18,7 @@ Nous réutilisons du matériel, souvent destiné au "recyclage" (destruction) po
 Vous avez du matériel à vous séparer, ça peut nous intéresser, n'hésitez pas à nous contacter :
 
 {{< cards >}}
-  {{< card link="mail://cloudducoeur@restosducoeur.org" title="Par e-mail" subtitle="C'est peut-être un truc d'ancien, mais on les regardes quand-même!" icon="mail" >}}
+  {{< card link="mail://cloudducoeur@restosducoeur.org" title="Par e-mail" icon="mail" >}}
 {{< /cards >}}
 
 ## Choix de solutions open source
