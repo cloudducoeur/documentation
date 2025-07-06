@@ -23,7 +23,7 @@ Vous avez du matériel à vous séparer, ça peut nous intéresser, n'hésitez p
 
 ## Choix de solutions open source
 
-Nous utilisons des technologies libres (voir Open Source) au maximum, se basant et favorisant les fondations plutôt que des logiciels proposés par des entreprises (pour les fondations).
+Nous utilisons des technologies libres (voir Open Source) au maximum, se basant et favorisant les fondations plutôt que des logiciels proposés par des entreprises.
 
 ### Allongement de la durée de vie du matériel
 
