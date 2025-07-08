@@ -6,6 +6,8 @@ draft: false
 type: docs
 ---
 
+<img src="./cdc-illustration-contexte.png" alt="Context-Driven Development" style="width: 50%;">
+
 Dans notre approche du développement et de l'architecture, nous privilégions une philosophie simple mais puissante : le contexte guide nos décisions.
 
 Cette approche nous permet de prendre des décisions techniques éclairées en tenant compte de l'environnement spécifique dans lequel nous évoluons, plutôt que de suivre aveuglément des tendances ou des solutions universelles.
