@@ -6,11 +6,13 @@ draft: false
 type: docs
 ---
 
-Dans notre approche du développement et de l'architecture, nous privilégions une philosophie simple mais puissante : le contexte guide nos décisions. Cette approche nous permet de prendre des décisions techniques éclairées en tenant compte de l'environnement spécifique dans lequel nous évoluons, plutôt que de suivre aveuglément des tendances ou des solutions universelles.
+Dans notre approche du développement et de l'architecture, nous privilégions une philosophie simple mais puissante : le contexte guide nos décisions.
+
+Cette approche nous permet de prendre des décisions techniques éclairées en tenant compte de l'environnement spécifique dans lequel nous évoluons, plutôt que de suivre aveuglément des tendances ou des solutions universelles.
 
 ## Qu'est-ce que le Context-Driven Development ?
 
-Le Context-Driven Development (CDD) est une méthodologie qui place le contexte au cœur de chaque décision technique. Contrairement aux approches dogmatiques qui proposent des solutions toutes faites, le CDD reconnaît que chaque situation est unique et nécessite une analyse approfondie de son environnement.
+Le **Context-Driven Development (CDD)** est une méthodologie qui place le contexte au cœur de chaque décision technique. Contrairement aux approches dogmatiques qui proposent des solutions toutes faites, le CDD reconnaît que chaque situation est unique et nécessite une analyse approfondie de son environnement.
 
 Cette approche s'appuie sur plusieurs principes fondamentaux. Chaque décision technique doit être justifiée par le contexte spécifique du projet, de l'équipe et de l'organisation. Il n'existe pas de solution universelle qui fonctionne dans tous les cas de figure. Les contraintes et opportunités de chaque environnement façonnent naturellement les meilleures pratiques à adopter.
 
