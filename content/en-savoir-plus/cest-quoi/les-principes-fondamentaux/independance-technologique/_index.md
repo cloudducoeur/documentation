@@ -16,13 +16,13 @@ Dans un monde où la technologie joue un rôle central dans nos activités, il e
 
 L'indépendance technologique nous permet avant tout de contrôler notre destin numérique en évitant la dépendance à des entreprises tierces qui pourraient modifier leurs conditions d'utilisation ou leurs tarifs du jour au lendemain.
 
-Cette autonomie nous aide également à garantir la pérennité de nos services, même en cas de disparition ou de changement de stratégie d'un fournisseur. Nous pouvons ainsi préserver la confidentialité de nos données en maîtrisant où et comment elles sont stockées et traitées. Enfin, cette approche nous permet de maintenir notre capacité d'innovation en adaptant et faisant évoluer nos outils selon nos besoins spécifiques.
+Cette autonomie nous aide également à *garantir la pérennité de nos services*, même en cas de disparition ou de changement de stratégie d'un fournisseur. Nous pouvons ainsi préserver la confidentialité de nos données en maîtrisant où et comment elles sont stockées et traitées. Enfin, cette approche nous permet de maintenir notre capacité d'innovation en adaptant et faisant évoluer nos outils selon nos besoins spécifiques.
 
 ## L'open source et le logiciel libre comme fondement
 
 ### Les avantages de l'open source
 
-L'utilisation de logiciels open source et libres constitue le pilier de notre indépendance technologique. La transparence qu'ils offrent nous permet de vérifier ce que fait réellement le logiciel, d'identifier d'éventuelles vulnérabilités et de nous assurer qu'il respecte nos standards de sécurité grâce à l'accès au code source.
+L'**utilisation de logiciels open source et libres constitue le pilier de notre indépendance technologique**. La transparence qu'ils offrent nous permet de vérifier ce que fait réellement le logiciel, d'identifier d'éventuelles vulnérabilités et de nous assurer qu'il respecte nos standards de sécurité grâce à l'accès au code source.
 
 Les licences libres garantissent notre liberté d'utilisation en nous donnant le droit d'utiliser, modifier et distribuer les logiciels selon nos besoins, sans contraintes artificielles.
 
