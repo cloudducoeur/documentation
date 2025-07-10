@@ -7,7 +7,7 @@ type: docs
 
 ![](./cdc-la-forge.png)
 
-La forge représente l'infrastructure centrale de développement des Restos du Cœur. Basée sur GitLab et GitLab CI, elle constitue notre plateforme unifiée pour le stockage, la collaboration et l'intégration continue de tous nos projets logiciels.
+La forge représente l'infrastructure centrale de développement des Restos du Cœur. Basée sur [GitLab](https://about.gitlab.com/) et [GitLab CI](https://about.gitlab.com/), elle constitue notre plateforme unifiée pour le stockage, la collaboration et l'intégration continue de tous nos projets logiciels.
 
 ## Qu'est-ce que la forge ?
 
@@ -21,7 +21,7 @@ Cette infrastructure nous permet de centraliser tous nos développements au sein
 
 ## Une approche sécurisée et maîtrisée
 
-L'un des principaux avantages de notre forge interne réside dans le contrôle de la sécurité et de la confidentialité. Tous nos projets, qu'ils soient destinés à être partagés publiquement ou non, transitent par cette infrastructure sécurisée avant toute publication éventuelle.
+L'un des principaux avantages de notre forge interne réside dans le contrôle de la **sécurité** et de la **confidentialité**. Tous nos projets, qu'ils soient destinés à être *partagés publiquement ou non*, transitent par cette infrastructure sécurisée avant toute publication éventuelle.
 
 Cette approche nous évite d'exposer involontairement du code sensible sur des plateformes publiques. Les informations de configuration, les clés d'API de développement, ou les détails d'architecture interne restent protégés dans notre environnement contrôlé. Nous pouvons ainsi développer sereinement sans risquer de compromettre la sécurité de nos systèmes.
 
