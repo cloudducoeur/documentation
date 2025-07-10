@@ -13,7 +13,9 @@ type: docs
   {{< card link="se-connecter" title="Se connnecter" subtitle="Accèdez à la plateforme d'observabilité en toute simplicité." icon="link" >}}
 {{< /cards >}}
 
-## L'observabilité au coeur du projet
+## Qu'est-ce que c'est ?
+
+### L'observabilité au coeur du projet
 
 L'observabilité est au coeur du projet pour plusieurs raisons :
 
