@@ -10,7 +10,7 @@ type: docs
 ## Pour bien commencer
 
 {{< cards >}}
-  {{< card link="se-connecter" title="Se connnecter" subtitle="Pour bien commencer, connectez-vous." icon="link" >}}
+  {{< card link="se-connecter" title="Se connnecter" subtitle="Accèdez à la plateforme d'observabilité en toute simplicité." icon="link" >}}
 {{< /cards >}}
 
 ## L'observabilité au coeur du projet
