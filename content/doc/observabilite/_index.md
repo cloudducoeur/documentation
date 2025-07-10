@@ -17,7 +17,7 @@ type: docs
 
 ### L'observabilité au coeur du projet
 
-L'observabilité est au coeur du projet pour plusieurs raisons :
+L'observabilité est au coeur du projet du Cloud du Coeur pour plusieurs raisons :
 
 - **Assurer la fiabilité** : Elle permet de surveiller en temps réel l’état des services pour garantir leur bon fonctionnement et réagir rapidement en cas de problème.
 - **Anticiper les incidents** : Grâce à la collecte d’indicateurs, il est possible de détecter des anomalies ou des tendances avant qu’elles ne deviennent des incidents majeurs.
