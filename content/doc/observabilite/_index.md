@@ -7,6 +7,14 @@ type: docs
 
 <img src="./observabilite.png" alt="Observabilité" style="width:80%;">
 
+## Pour bien commencer
+
+{{< cards >}}
+  {{< card link="se-connecter" title="Se connnecter" subtitle="Pour bien commencer, connectez-vous." icon="link" >}}
+{{< /cards >}}
+
+## L'observabilité au coeur du projet
+
 L'observabilité est au coeur du projet pour plusieurs raisons :
 
 - **Assurer la fiabilité** : Elle permet de surveiller en temps réel l’état des services pour garantir leur bon fonctionnement et réagir rapidement en cas de problème.
