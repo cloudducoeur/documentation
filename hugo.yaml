@@ -89,7 +89,7 @@ menu:
       weight: 8
       url: "https://observabilite.aucoeurdu.cloud"
       params:
-        icon: chart-bar
+        icon: observability
     - name: Status page
       weight: 8
       url: "https://status.infra.rdcnet.org/status/an"
