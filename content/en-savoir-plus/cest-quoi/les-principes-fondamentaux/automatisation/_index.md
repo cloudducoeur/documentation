@@ -43,6 +43,8 @@ L'automatisation de notre infrastructure nous permet de déployer rapidement et 
 
 Cette approche nous garantit des environnements stables et sécurisés, tout en réduisant considérablement le temps nécessaire aux opérations de maintenance.
 
+<img src="./cdc-illustration-automatisation2.png" alt="Automatisation" style="width: 40%;">
+
 ### Surveillance et alertes
 
 Notre système de surveillance automatisé veille en permanence sur la santé de notre infrastructure. Il nous alerte proactivement en cas de problème, nous permettant d'intervenir rapidement avant que les utilisateurs ne soient impactés.
