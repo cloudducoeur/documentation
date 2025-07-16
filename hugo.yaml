@@ -29,7 +29,7 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/cloudducoeur/documentation/edit/main"
+    base: "https://github.com/cloudducoeur/documentation/content/edit/main"
 
   blog:
     list:
