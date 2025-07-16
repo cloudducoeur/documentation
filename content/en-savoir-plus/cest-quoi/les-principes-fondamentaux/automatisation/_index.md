@@ -20,6 +20,8 @@ Chaque tâche automatisée représente du temps gagné pour nos équipes. Plutô
 
 Cette approche nous permet également de réduire le risque d'erreurs humaines sur les tâches routinières, améliorant ainsi la qualité et la fiabilité de nos services.
 
+<img src="./cdc-illustration-automatisation1.png" alt="Automatisation" style="width: 40%;">
+
 ### Assurer la continuité de service
 
 L'automatisation garantit que certaines opérations critiques continuent de fonctionner même en l'absence de personnel. Les sauvegardes automatiques, la surveillance des systèmes, ou encore la génération de rapports peuvent ainsi s'exécuter 24h/24 et 7j/7.
