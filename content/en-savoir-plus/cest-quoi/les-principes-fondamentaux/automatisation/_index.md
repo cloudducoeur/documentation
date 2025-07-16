@@ -8,7 +8,7 @@ type: docs
 
 <img src="./cdc-illustration-automatisation.png" alt="Automatisation" style="width: 50%;">
 
-L'automatisation est un principe fondamental qui nous permet de maximiser l'efficacité de nos ressources humaines et techniques. Dans un contexte associatif où chaque minute compte et où nos bénévoles sont précieux, automatiser les tâches répétitives nous permet de nous concentrer sur l'essentiel.
+L'**automatisation** est *un principe fondamental* qui nous permet de maximiser l'efficacité de nos ressources humaines et techniques. Dans un contexte associatif où chaque minute compte et où nos bénévoles sont précieux, automatiser les tâches répétitives nous permet de nous concentrer sur l'essentiel.
 
 ## Pourquoi automatiser ?
 
