@@ -46,4 +46,6 @@ L'idée était toujours là, celle de pouvoir héberger tout le monde sans que �
 
 ![](./cdc-histoire-hebergement-des-ads.png)
 
+Avec ces 3 baies, le Cloud du Coeur est né.
+
 {{% /steps %}}
