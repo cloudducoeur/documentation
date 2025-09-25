@@ -15,7 +15,7 @@ Pour comprendre comment nous en sommes arrivés à créer une plateforme de Clou
 
 ... et qui était utilisé comme **serveur**.
 
-Dans l'antenne du 28 (Eure et Loir), tout comme dans tout plein d'antennes, celle-ci avait des besoins informatiques divers nécessitant de l'hébergement. Comme la grande majorité, ces services étaient hébergés sur un ordinateur lambda, servant de *serveur*.
+Dans l'[antenne du 28 (Eure et Loir)](https://www.restosducoeur.org/associations-departementales/les-restos-du-coeur-deure-et-loire/), tout comme dans tout plein d'antennes, celle-ci avait des besoins informatiques divers nécessitant de l'hébergement. Comme la grande majorité, ces services étaient hébergés sur un ordinateur lambda, servant de *serveur*.
 
 Ce PC qui traînait dans un coin possèdait tout un lot de problèmes :
 
@@ -36,8 +36,14 @@ C'est aussi ça l'associatif, de la ***débrouille***... C'est d'ailleurs ce qui
 
 ### La région Centre-Val de Loire au centre
 
-Rapidement, la mise en place de ces services ont été connus outre les murs de l'antenne du 28, les autres antennes de la région Centre-Val de Loire souhaitées également utiliser ces applications. Ainsi nous avons créé la première version du futur datacenter du Cloud du Coeur.
+Rapidement, la mise en place de ces services ont été connus outre les murs de l'antenne du 28, les autres antennes de la région Centre-Val de Loire souhaitées également utiliser ces applications. Ainsi nous avons créé la première version du futur datacenter du **Cloud du Coeur**.
 
 ![](./cdc-histoire-region-centre.png)
+
+### Trois véritables baies pour nos ADs
+
+L'idée était toujours là, celle de pouvoir héberger tout le monde sans que ça coûte. Nous avons terminé par installer 3 baies de 52 unités de haut pour héberger les serveurs fraîchement récupérés et ainsi proposer l'hébergement à tout le monde.
+
+![](./cdc-histoire-hebergement-des-ads.png)
 
 {{% /steps %}}
