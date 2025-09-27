@@ -32,6 +32,8 @@ L’infrastructure a pour vocation première de réduire les coûts globaux lié
 
 La plateforme doit répondre aux besoins métiers avec des garanties minimales de disponibilité.
 
+<img src="./cdc-illustration-server.png" alt="Illustration des serveurs" width="35%" />
+
 #### Contrôle de la consommation
 
 Les machines ne doivent être allumées qu’en cas de besoin. La consommation énergétique doit être monitorée et optimisée, car elle représente le seul coût variable direct.
