@@ -20,6 +20,8 @@ Réduire drastiquement les coûts d'hébergement tout en fournissant une infrast
 
 L’infrastructure a pour vocation première de réduire les coûts globaux liés à l’hébergement. Chaque décision technique est guidée par la maîtrise budgétaire.
 
+<img src="./cdc-illustration-argent.png" alt="Illustration de l'argent" width="35%" />
+
 #### Dons & réutilisation
 
 99% de l’infrastructure repose sur du matériel issu de dons. L’acquisition de matériel doit prioritairement passer par la récupération, sauf pour les consommables. Une stratégie active de recherche de dons doit être mise en place.
