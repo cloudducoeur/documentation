@@ -70,7 +70,7 @@ Chaque brique doit être documentée, y compris :
 
 #### Open Source d’abord
 
-Aucune licence commerciale coûteuse ne peut être envisagée (ex. VMWare). Le choix se porte sur des solutions libres et pérennes (Proxmox, OpenStack, Linux, Ceph, etc.).
+Aucune licence commerciale coûteuse ne peut être envisagée. Le choix se porte sur des solutions libres et pérennes (Proxmox, OpenStack, Linux, Ceph, etc.).
 
 #### Innovation libre
 
