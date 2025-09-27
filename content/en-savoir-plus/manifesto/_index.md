@@ -32,7 +32,7 @@ L’infrastructure a pour vocation première de réduire les coûts globaux lié
 
 La plateforme doit répondre aux besoins métiers avec des garanties minimales de disponibilité.
 
-<img src="./cdc-illustration-server.png" alt="Illustration des serveurs" width="35%" />
+<img src="./cdc-illustration-server.png" alt="Illustration des serveurs" width="45%" />
 
 #### Contrôle de la consommation
 
