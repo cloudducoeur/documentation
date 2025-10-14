@@ -12,7 +12,7 @@ A travers le ***Cloud du Coeur***, nous offrons 2 types d'hébergements :
 
 Ainsi qu'une plateforme d'**observabilité** :
 
-- Une console unique permettant d'accéder aux différentes données applicatives avec la possibilité de créer vos propres tableaux de bord.
+- Une [console unique](https://observabilite.aucoeurdu.cloud/login) permettant d'accéder aux différentes données applicatives avec la possibilité de créer vos propres tableaux de bord.
 
 ## Technologies
 
