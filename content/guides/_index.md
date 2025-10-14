@@ -10,6 +10,10 @@ A travers le ***Cloud du Coeur***, nous offrons 2 types d'hébergements :
 - **Hébergement mutualisé** : Vous possèdez une console (CloudPanel) est vous êtes autonome sur cette dernière. Idéal pour les petits sites qui n'ont pas vocation à recevoir un très gros trafic.
 - **Hébergement Cloud OpenStack** : C'est la [console](https://console.aucoeurdu.cloud) fournit pour que vous puissiez créer et héberger vos applications "at-scale". Que ça soit en la déployant avec une base de donnée managée ou via un cluster **Kubernetes** tout frais.
 
+Ainsi qu'une plateforme d'**observabilité** :
+
+- Une console unique permettant d'accéder aux différentes données applicatives avec la possibilité de créer vos propres tableaux de bord.
+
 ## Technologies
 
 Suivez étape par étape pour déployer différents types de services déjà documentés et utilisés sur la plateforme.
