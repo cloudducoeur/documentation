@@ -36,3 +36,9 @@ Vous cherchez de l'aide précise sur un sujet, il existe déjà peut être un tu
   {{< card link="tuto-hebergement-web-pousser-code" title="Pousser son code" subtitle="Pousser mon code en ligne? Facile!" icon="upload" >}}
   {{< card link="tuto-hebergement-web-consulter-les-logs" title="Consulter les logs" subtitle="Mon app ne va pas très bien, heureusement que j'ai mes logs!" icon="pencil-alt" >}}
 {{< /cards >}}
+
+### Observabilité (Grafana)
+
+{{< cards >}}
+  {{< card link="tuto-observabilite-account" title="Accéder à Grafana" subtitle="Vous chercher à accéder à la visualisation des données d'observabilité" icon="user" >}}
+{{< /cards >}}
