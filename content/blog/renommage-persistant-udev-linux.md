@@ -99,13 +99,13 @@ Voici un bout de code `ansible`, outil utilisé chez nous pour le déploiement d
     - name: Separate 1G (MGT) and 10G+ (PRD) interfaces
       set_fact:
         mgt_ifaces: "{{ iface_data | selectattr('speed', '==', 1000) | list }}"
-        prd_ifaces: "{{ iface_data | selectattr('speed', '>=', 10000) | list }}"
+        prd_ifaces: "{{ iface_data | selectattr('speed', '>=', 100000) | list }}"
 
     - name: Debug classified physical interfaces
       debug:
         msg:
           - "MGT interfaces (1G): {{ mgt_ifaces }}"
-          - "PRD interfaces (10G+): {{ prd_ifaces }}"
+          - "PRD interfaces (100G+): {{ prd_ifaces }}"
 
     - name: Generate udev rules content
       set_fact:
@@ -184,4 +184,4 @@ reboot
 
 ---
 
-Grâce à cette méthode, la gestion des interfaces réseau devient plus claire, plus fiable et plus facilement automatisable, même lors de changements matériels.
+Grâce à cette méthode, la gestion des interfaces réseau devient plus claire, plus fiable et plus facilement automatisable, même lors de changements matériels. Bien sûr cette méthode est très utile dans notre contexte où toutes les machines qui constituent le "Cloud du Coeur" (dans l'underlay) sont identiques.
