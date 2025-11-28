@@ -9,6 +9,6 @@ title: "Blog technique"
 {{< /hextra/hero-badge >}}
 </div>
 
-<img src="./cdc-illustration-blog.png" alt="Blog" style="width: 40%;">
+<img src="./cdc-illustration-blog.gif" alt="Blog" style="width: 40%;">
 
 Ici, l'équipe du Cloud du Coeur partage des sujets qui lui tiennent à coeur.
