@@ -35,7 +35,7 @@ width: wide
     icon="cloud"
     subtitle="Vous souhaitez en savoir plus sur le Cloud du Coeur, cette section est faite pour vous."
     link="en-savoir-plus"
-    image="img/cdc-illustration-decouvrir.gif"
+    image="img/cdc-illustration-decouvrir.png"
     imageClass="hx:top-[20%] hx:left-[24px] hx:w-[90%] hx:sm:w-[110%] hx:dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 97, 217, 0.15),hsla(0,0%,100%,0));"
   >}}
@@ -45,7 +45,7 @@ width: wide
     icon="document"
     subtitle="Vous souhaitez créer des ressources sur le Cloud du Coeur, nous vous invitons à consulter la documentation pour bien commencer."
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
-    image="img/cdc-illustration-doc.gif"
+    image="img/cdc-illustration-doc.png"
     imageClass="hx:top-[20%] hx:left-[24px] hx:w-[90%] hx:sm:w-[110%] hx:dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 230, 97, 0.15),hsla(0,0%,100%,0));"
   >}}
@@ -54,7 +54,7 @@ width: wide
     subtitle="Découvrez les guides pour connaître les bonnes pratiques d'utilisation du Cloud du Coeur."
     link="guides"
     icon="document-text"
-    image="img/cdc-illustration-guides.gif"
+    image="img/cdc-illustration-guides.png"
     imageClass="hx:top-[20%] hx:left-[24px] hx:w-[90%] hx:sm:w-[110%] hx:dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 97, 217, 0.15),hsla(0,0%,100%,0));"
   >}}
