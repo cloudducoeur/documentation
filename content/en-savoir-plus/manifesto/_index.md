@@ -6,7 +6,7 @@ draft: false
 type: docs
 ---
 
-<img src="./cdc-illustration-manifesto.png" alt="Illustration du manifeste" width="35%" />
+<img src="./cdc-illustration-manifesto.gif" alt="Illustration du manifeste" width="35%" />
 
 ## Objectif principal
 
