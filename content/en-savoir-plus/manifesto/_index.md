@@ -20,7 +20,7 @@ Réduire drastiquement les coûts d'hébergement tout en fournissant une infrast
 
 L’infrastructure a pour vocation première de réduire les coûts globaux liés à l’hébergement. Chaque décision technique est guidée par la maîtrise budgétaire.
 
-<img src="./cdc-illustration-argent.png" alt="Illustration de l'argent" width="35%" />
+<img src="./cdc-illustration-argent.gif" alt="Illustration de l'argent" width="35%" />
 
 #### Dons & réutilisation
 
@@ -32,7 +32,7 @@ L’infrastructure a pour vocation première de réduire les coûts globaux lié
 
 La plateforme doit répondre aux besoins métiers avec des garanties minimales de disponibilité.
 
-<img src="./cdc-illustration-server.png" alt="Illustration des serveurs" width="45%" />
+<img src="./cdc-illustration-server.gif" alt="Illustration des serveurs" width="45%" />
 
 #### Contrôle de la consommation
 
@@ -45,6 +45,8 @@ Fourniture d’une infrastructure mutualisée inspirée des standards AWS, Azure
 ### Valeurs et culture
 
 #### Collaboration & communication
+
+<img src="./cdc-illustration-collaboration.gif" alt="Collaboration" width="35%" />
 
 Approche DevOps : équipes développement et exploitation travaillent ensemble dès la conception. Responsabilité partagée du cycle de vie complet des applications.
 
@@ -69,6 +71,8 @@ Chaque brique doit être documentée, y compris :
 ### Technologies et innovations
 
 #### Open Source d’abord
+
+<img src="./cdc-illustration-oss.gif" alt="OSS" width="35%" />
 
 Aucune licence commerciale coûteuse ne peut être envisagée. Le choix se porte sur des solutions libres et pérennes (Proxmox, OpenStack, Linux, Ceph, etc.).
 
