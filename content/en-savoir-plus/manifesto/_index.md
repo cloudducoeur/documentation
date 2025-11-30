@@ -26,13 +26,13 @@ L’infrastructure a pour vocation première de réduire les coûts globaux lié
 
 99% de l’infrastructure repose sur du matériel issu de dons. L’acquisition de matériel doit prioritairement passer par la récupération, sauf pour les consommables. Une stratégie active de recherche de dons doit être mise en place.
 
+<img src="./cdc-illustration-server.gif" alt="Illustration des serveurs" width="45%" />
+
 ### Fiabilité et performances
 
 #### Disponibilité
 
 La plateforme doit répondre aux besoins métiers avec des garanties minimales de disponibilité.
-
-<img src="./cdc-illustration-server.gif" alt="Illustration des serveurs" width="45%" />
 
 #### Contrôle de la consommation
 
