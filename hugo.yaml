@@ -92,7 +92,7 @@ menu:
         icon: observability
     - name: Status page
       weight: 8
-      url: "https://status.infra.rdcnet.org/status/an"
+      url: "https://status.infra.rdcnet.org/status/cdc"
       params:
         icon: check
     - name: Search
