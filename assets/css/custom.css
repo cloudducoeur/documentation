@@ -1,5 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
 :root {
   --primary-hue: 330deg;        /* teinte rose */
   --primary-saturation: 90%;
   --primary-lightness: 65%;
+}
+
+h1, h2, h3, h4, h5, h6,
+.hextra-content h1{
+  font-family: 'Bricolage Grotesque', sans-serif !important;
+}
+.hextra-content h2 {
+  font-family: 'Bricolage Grotesque', sans-serif !important;
+}
+.hextra-content h3 {
+  font-family: 'Bricolage Grotesque', sans-serif !important;
+}
+.hextra-content h4 {
+  font-family: 'Bricolage Grotesque', sans-serif !important;
+}
+.hextra-content h5 {
+  font-family: 'Bricolage Grotesque', sans-serif !important;
+}
+.hextra-content h6 {
+  font-family: 'Bricolage Grotesque', sans-serif !important;
 }
