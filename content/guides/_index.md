@@ -14,6 +14,8 @@ Ainsi qu'une plateforme d'**observabilité** commune :
 
 - Une [console unique](https://observabilite.aucoeurdu.cloud/login) permettant d'accéder aux différentes données applicatives avec la possibilité de créer vos propres tableaux de bord.
 
+<img src="./cdc-guides.png" alt="Guides du Cloud du Coeur" style="width: 85%;">
+
 ## Technologies
 
 Suivez étape par étape pour déployer différents types de services déjà documentés et utilisés sur la plateforme.
