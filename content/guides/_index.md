@@ -47,3 +47,9 @@ Vous cherchez de l'aide précise sur un sujet, il existe déjà peut-être un tu
 {{< cards >}}
   {{< card link="tuto-observabilite-account" title="Accéder à Grafana" subtitle="Vous chercher à accéder à la visualisation des données d'observabilité" icon="user" >}}
 {{< /cards >}}
+
+### Hébergement Cloud (OpenStack)
+
+{{< cards >}}
+  {{< card link="tuto-openstack-account" title="Accéder à la console OpenStack" subtitle="Vous chercher à vous connecter à la console ?" icon="user" >}}
+{{< /cards >}}
