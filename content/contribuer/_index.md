@@ -9,7 +9,7 @@ type: docs
 
 Si vous souhaitez nous aider sur ce projet, n'hésites pas à nous contacter par e-mail :
 
-- [cloudducoeur@restosducoeur.org](cloudducoeur@restosducoeur.org)
+- [cloudducoeur@restosducoeur.org](mailto:cloudducoeur@restosducoeur.org)
 
 ## A cette documentation ?
 
