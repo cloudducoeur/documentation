@@ -25,3 +25,61 @@ h1, h2, h3, h4, h5, h6,
 .hextra-content h6 {
   font-family: 'Bricolage Grotesque', sans-serif !important;
 }
+
+/* ===== Pre-loader ===== */
+#preloader {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+/* Support du dark mode Hextra */
+.dark #preloader {
+  background: #111111;
+}
+
+#preloader.preloader-hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.preloader-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.preloader-logo {
+  width: 180px;
+  height: auto;
+  animation: preloaderPulse 1.6s ease-in-out infinite;
+}
+
+.preloader-spinner {
+  width: 36px;
+  height: 36px;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  border-top-color: hsl(var(--primary-hue) var(--primary-saturation) var(--primary-lightness));
+  border-radius: 50%;
+  animation: preloaderSpin 0.8s linear infinite;
+}
+
+.dark .preloader-spinner {
+  border-color: rgba(255, 255, 255, 0.15);
+  border-top-color: hsl(var(--primary-hue) var(--primary-saturation) var(--primary-lightness));
+}
+
+@keyframes preloaderPulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%      { opacity: 0.6; transform: scale(0.95); }
+}
+
+@keyframes preloaderSpin {
+  to { transform: rotate(360deg); }
+}

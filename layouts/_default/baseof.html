@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+  {{- partial "head.html" . -}}
+  <body dir="{{ .Site.Language.LanguageDirection | default `ltr` }}">
+    <!-- Pre-loader -->
+    <div id="preloader">
+      <div class="preloader-inner">
+        <img src="{{ "img/logo.png" | relURL }}" alt="Chargement..." class="preloader-logo" />
+        <div class="preloader-spinner"></div>
+      </div>
+    </div>
+    <script>
+      (function() {
+        window.addEventListener('load', function() {
+          var preloader = document.getElementById('preloader');
+          preloader.classList.add('preloader-hidden');
+          preloader.addEventListener('transitionend', function() {
+            preloader.style.display = 'none';
+          });
+        });
+      })();
+    </script>
+    <!-- Fin Pre-loader -->
+
+    {{- partial "navbar.html" . -}}
+    {{- block "main" . }}{{ end -}}
+    {{- if or (eq .Site.Params.footer.enable nil) (.Site.Params.footer.enable) }}
+      {{ partial "footer.html" . }}
+    {{ end }}
+    {{ partial "scripts.html" . }}
+  </body>
+</html>
