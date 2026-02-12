@@ -22,7 +22,7 @@ width: wide
 
 <div class="hx-mb-12">
 {{< hextra/hero-subtitle style="margin:.3rem 0 2rem 0">}}
-  Ici vous trouverez, la documentation des services,<br>
+  Ici vous trouverez, la documentation du Cloud du Coeur, de ses services,<br>
   des guides de bonnes pratiques mais également comment contribuer au projet.
 {{< /hextra/hero-subtitle >}}
 </div>
