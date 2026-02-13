@@ -37,7 +37,7 @@ width: wide
     link="en-savoir-plus"
     image="img/cdc-illustration-decouvrir.png"
     imageClass="hx:top-[20%] hx:left-[24px] hx:w-[90%] hx:sm:w-[110%] hx:dark:opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 97, 217, 0.15),hsla(0,0%,100%,0));"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 196, 254, 0.15),hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
     title="Documentation"
