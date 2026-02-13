@@ -9,13 +9,13 @@ type: docs
 
 Les **zones de disponibilité** (Availability Zones) permettent de répartir vos instances sur des groupes de serveurs physiques distincts. Elles jouent un rôle clé dans la **haute disponibilité** et la **résilience** de vos services.
 
-## Principe de fonctionnement
+### Principe de fonctionnement
 
 Chaque zone de disponibilité correspond à un ensemble isolé de ressources matérielles (serveurs, alimentation, réseau). Si une zone rencontre un problème, les autres zones continuent de fonctionner normalement.
 
 ![](./cdc-illustration-az.png)
 
-## Les zones disponibles
+### Les zones disponibles
 
 | Nom de l'AZ | Région | Etat |
 |---|---|---|
@@ -29,23 +29,23 @@ Chaque zone de disponibilité correspond à un ensemble isolé de ressources mat
 | mar2 | Marseille (MAR) | Standby |
 | mar3 | Marseille (MAR) | Standby |
 
-## Cas d'usage
+### Cas d'usage
 
-### Haute disponibilité
+#### Haute disponibilité
 
 Pour un service critique, déployez vos instances sur **plusieurs zones différentes**. Ainsi, en cas de défaillance d'une zone, vos autres instances restent opérationnelles.
 
-### Service non critique
+#### Service non critique
 
 Pour des environnements de développement ou de test, une seule zone suffit. Vous pouvez laisser OpenStack choisir automatiquement la zone.
 
-## Choisir une zone de disponibilité
+### Choisir une zone de disponibilité
 
-### Depuis la console
+#### Depuis la console
 
 Lors de la [création d'une instance](/doc/openstack/compute/premiere-instance/), sélectionnez la zone souhaitée dans le champ **Zone de disponibilité** du formulaire.
 
-### Via la CLI
+#### Via la CLI
 
 ```bash
 # Lister les zones de disponibilité
@@ -60,7 +60,7 @@ openstack server create \
   mon-instance
 ```
 
-## Bonnes pratiques
+### Bonnes pratiques
 
 - **Services critiques** : Répartissez vos instances sur au moins 2 zones de disponibilité.
 - **Load balancer** : Placez un répartiteur de charge devant vos instances multi-zones.
