@@ -27,6 +27,26 @@ h1, h2, h3, h4, h5, h6,
   font-family: 'Bricolage Grotesque', sans-serif !important;
 }
 
+/* ===== Navbar Icons ===== */
+.nav-container nav a[class*="hx:p-2"] svg,
+.nav-container nav button svg {
+  color: #263238 !important;
+  transition: color 0.2s ease;
+}
+
+.nav-container nav a[class*="hx:p-2"]:hover svg,
+.nav-container nav button:hover svg {
+  color: #7AC3ED !important;
+}
+
+.nav-container nav a[class*="hx:text-sm"] {
+  transition: color 0.2s ease;
+}
+
+.nav-container nav a[class*="hx:text-sm"]:hover {
+  color: #F7B500 !important;
+}
+
 /* ===== Pre-loader ===== */
 #preloader {
   position: fixed;
