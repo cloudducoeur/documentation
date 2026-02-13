@@ -16,4 +16,5 @@ Vous souhaitez en savoir plus sur "*Le Cloud du Coeur*", ici vous trouverez tout
   {{< card link="comment-ca-marche" title="Comment ça marche ?" subtitle= "Un Cloud ce n'est pas magique... Si vous souhaitez comprendre comment ça fonctionne sous le capot, c'est ici !" icon="document-text" >}}
   {{< card link="les-services" title="Les services" subtitle= "Les Restos produisent un nuage ? Oui, mais pas n'importe lequel..." icon="server-stack" >}}
   {{< card link="engagements" title="Nos engagements" subtitle= "Les points importants qui constituent notre engagement à travers ce projet." icon="sparkles" >}}
+  {{< card link="charte-graphique" title="Charte graphique" subtitle="Vous voulez voir des beaux dessins?" icon="eye" >}}
 {{< /cards >}}
