@@ -55,7 +55,7 @@ Cliquez sur **Créer une image**. L'import peut prendre quelques minutes selon l
 
 {{% /steps %}}
 
-## Via le CLI OpenStack
+## Via la CLI OpenStack
 
 Vous pouvez également gérer vos images en ligne de commande :
 
@@ -78,5 +78,5 @@ openstack image delete "Mon image"
 ```
 
 {{% callout type="info" %}}
-Pour utiliser le CLI, consultez au préalable la page [CLI OpenStack](/doc/cli/) pour l'installation et la configuration.
+Pour utiliser la CLI, consultez au préalable la page [CLI OpenStack](/doc/cli/) pour l'installation et la configuration.
 {{% /callout %}}

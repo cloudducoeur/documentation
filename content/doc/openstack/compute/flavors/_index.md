@@ -65,5 +65,5 @@ Le nom d'un gabarit suit le format :
 | a32-ram128-disk640-perf4 | 32 | 128 GB | 640 GB | perf4 |
 
 {{% callout type="info" %}}
-Pour lister les gabarits disponibles via le CLI : `openstack flavor list`
+Pour lister les gabarits disponibles via la CLI : `openstack flavor list`
 {{% /callout %}}

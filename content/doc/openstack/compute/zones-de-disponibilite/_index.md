@@ -42,7 +42,7 @@ Pour des environnements de développement ou de test, une seule zone suffit. Vou
 
 Lors de la [création d'une instance](/doc/openstack/compute/premiere-instance/), sélectionnez la zone souhaitée dans le champ **Zone de disponibilité** du formulaire.
 
-### Via le CLI
+### Via la CLI
 
 ```bash
 # Lister les zones de disponibilité
