@@ -13,18 +13,7 @@ Les **zones de disponibilité** (Availability Zones) permettent de répartir vos
 
 Chaque zone de disponibilité correspond à un ensemble isolé de ressources matérielles (serveurs, alimentation, réseau). Si une zone rencontre un problème, les autres zones continuent de fonctionner normalement.
 
-```
-┌──────────────────────────────────────────┐
-│           Cloud du Cœur                  │
-│                                          │
-│  ┌──────────┐  ┌──────────┐  ┌────────┐  │
-│  │  Zone A  │  │  Zone B  │  │ Zone C │  │
-│  │  ─────   │  │  ─────   │  │ ─────  │  │
-│  │ Serveurs │  │ Serveurs │  │Serveurs│  │
-│  │ Stockage │  │ Stockage │  │Stockage│  │
-│  └──────────┘  └──────────┘  └────────┘  │
-└──────────────────────────────────────────┘
-```
+![](./cdc-illustration-az.png)
 
 ## Cas d'usage
 
