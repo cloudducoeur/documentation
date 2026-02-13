@@ -1,0 +1,61 @@
+{{ define "main" }}
+  <!-- Popup de bienvenue -->
+  <div id="welcomeModal" class="welcome-modal">
+    <div class="welcome-modal-overlay"></div>
+    <div class="welcome-modal-content">
+      <button class="welcome-modal-close" aria-label="Fermer">&times;</button>
+      <div class="welcome-modal-body">
+        <img src="{{ "img/logo.png" | relURL }}" alt="Cloud du Coeur" class="welcome-modal-logo" />
+        <h2>Bienvenue sur la documentation du Cloud du Cœur !</h2>
+        <p>Explorez nos guides, découvrez nos services et apprenez comment contribuer à ce projet.</p>
+        <button class="welcome-modal-btn">C'est parti !</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function() {
+      // Vérifier si la popup a déjà été affichée
+      const hasSeenWelcome = localStorage.getItem('cdc-welcome-seen');
+      
+      if (!hasSeenWelcome) {
+        const modal = document.getElementById('welcomeModal');
+        const closeBtn = modal.querySelector('.welcome-modal-close');
+        const startBtn = modal.querySelector('.welcome-modal-btn');
+        const overlay = modal.querySelector('.welcome-modal-overlay');
+        
+        // Afficher la popup instantanément
+        setTimeout(function() {
+          modal.classList.add('welcome-modal-show');
+        }, 0);
+        
+        // Fonction pour fermer la popup
+        function closeModal() {
+          modal.classList.remove('welcome-modal-show');
+          localStorage.setItem('cdc-welcome-seen', 'true');
+        }
+        
+        // Événements de fermeture
+        closeBtn.addEventListener('click', closeModal);
+        startBtn.addEventListener('click', closeModal);
+        overlay.addEventListener('click', closeModal);
+        
+        // Fermer avec la touche Échap
+        document.addEventListener('keydown', function(e) {
+          if (e.key === 'Escape' && modal.classList.contains('welcome-modal-show')) {
+            closeModal();
+          }
+        });
+      }
+    })();
+  </script>
+
+  <div class='hx:mx-auto hx:flex {{ partial "utils/page-width" . }}'>
+    {{ partial "sidebar.html" (dict "context" . "disableSidebar" true) }}
+    <div class="hx:w-full hx:break-words hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:pb-8 hx:pt-8 hx:md:pt-12 hx:pl-[max(env(safe-area-inset-left),1.5rem)] hx:pr-[max(env(safe-area-inset-left),1.5rem)]">
+      <div class="hx:flex hx:flex-col hx:items-start">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+{{ end }}
