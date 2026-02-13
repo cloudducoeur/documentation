@@ -7,14 +7,14 @@ type: docs
 
 Le service **Compute** (basé sur OpenStack Nova) vous permet de créer et gérer des machines virtuelles (instances) sur la plateforme Cloud du Cœur.
 
-## Fonctionnalités principales
+### Fonctionnalités principales
 
 - **Instances** : Créez, démarrez, arrêtez et supprimez des machines virtuelles.
 - **Images** : Choisissez parmi les images système disponibles ou importez les vôtres.
 - **Paires de clés** : Gérez vos clés SSH pour un accès sécurisé à vos instances.
 - **Zones de disponibilité** : Répartissez vos instances sur différentes zones pour assurer la haute disponibilité.
 
-## Par où commencer ?
+### Par où commencer ?
 
 {{< cards >}}
   {{< card link="images" title="Les images" subtitle="Découvrez les images disponibles pour vos instances." icon="photograph" >}}
