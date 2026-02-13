@@ -5,7 +5,7 @@ draft: false
 type: docs
 ---
 
-<img src="./cdc-illustration-osk-az.gif" alt="OpenStack AZ" style="width: 25%;">
+<img src="./cdc-illustration-osk-az.gif" alt="OpenStack AZ" style="width: 35%;">
 
 Les **zones de disponibilité** (Availability Zones) permettent de répartir vos instances sur des groupes de serveurs physiques distincts. Elles jouent un rôle clé dans la **haute disponibilité** et la **résilience** de vos services.
 
