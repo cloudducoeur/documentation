@@ -9,62 +9,62 @@ type: docs
 
 Ce guide vous accompagne dans la création de votre première instance (machine virtuelle) sur la plateforme Cloud du Cœur.
 
-## Prérequis
+### Prérequis
 
 Avant de commencer, assurez-vous de :
 
 - Disposer d'un compte actif sur la [console OpenStack](https://console.aucoeurdu.cloud/auth/login?referer=/).
 - Avoir [créé ou importé une paire de clés SSH](/doc/openstack/compute/paire-de-cles/).
 
-## Créer une instance depuis la console
+### Créer une instance depuis la console
 
 {{% steps %}}
 
-### Se connecter à la console
+#### Se connecter à la console
 
 Rendez-vous sur la [console OpenStack](https://console.aucoeurdu.cloud/auth/login?referer=/) et connectez-vous avec vos identifiants.
 
-### Accéder au formulaire de création
+#### Accéder au formulaire de création
 
 Dans le menu latéral, naviguez vers **Compute** → **Instances**, puis cliquez sur **Lancer une instance**.
 
-### Renseigner les détails
+#### Renseigner les détails
 
 - **Nom de l'instance** : Donnez un nom explicite (par exemple `mon-serveur-web`).
 - **Zone de disponibilité** : Choisissez une [zone de disponibilité](/doc/openstack/compute/zones-de-disponibilite/) ou laissez la valeur par défaut.
 
-### Choisir une source (image)
+#### Choisir une source (image)
 
 - **Sélectionner le type de source** : Image.
 - **Créer un nouveau volume** : Oui (recommandé).
 - **Taille du volume** : Ajustez selon vos besoins (minimum 10 Go).
 - Sélectionnez l'image souhaitée (par exemple **Debian 13** ou **Ubuntu 24.04 LTS**).
 
-### Choisir un gabarit (flavor)
+#### Choisir un gabarit (flavor)
 
 Le gabarit détermine les ressources allouées à votre instance. Sélectionnez le gabarit adapté à votre usage.
 
-### Configurer le réseau
+#### Configurer le réseau
 
 Sélectionnez le réseau sur lequel votre instance sera connectée. Si vous n'avez pas encore de réseau, consultez la [documentation Réseau](/doc/openstack/network/).
 
-### Associer la paire de clés
+#### Associer la paire de clés
 
 Dans l'onglet **Paire de clés**, sélectionnez la clé SSH que vous avez créée précédemment.
 
-### Configurer les groupes de sécurité
+#### Configurer les groupes de sécurité
 
 Vérifiez que le groupe de sécurité sélectionné autorise :
 - Le **SSH** (port 22) pour vous connecter à l'instance.
 - Les ports nécessaires à votre application (80 pour HTTP, 443 pour HTTPS…).
 
-### Lancer l'instance
+#### Lancer l'instance
 
 Cliquez sur **Lancer l'instance**. Après quelques secondes, votre instance apparaîtra dans la liste avec le statut **Active**.
 
 {{% /steps %}}
 
-## Se connecter à l'instance
+### Se connecter à l'instance
 
 Une fois l'instance active et une IP flottante associée :
 
@@ -76,7 +76,7 @@ ssh -i ~/.ssh/ma-cle-ssh.pem debian@<IP_FLOTTANTE>
 Le nom d'utilisateur par défaut dépend de l'image utilisée : `debian` pour Debian, `ubuntu` pour Ubuntu, `almalinux` pour AlmaLinux.
 {{% /callout %}}
 
-## Via la CLI OpenStack
+### Via la CLI OpenStack
 
 ```bash
 # Créer une instance
@@ -102,7 +102,7 @@ openstack server start mon-serveur-web
 openstack server delete mon-serveur-web
 ```
 
-## Et ensuite ?
+### Et ensuite ?
 
 - Associez une [IP flottante](/doc/openstack/network/) à votre instance pour la rendre accessible depuis Internet.
 - Ajoutez du [stockage supplémentaire](/doc/openstack/storage/volumes/) via les volumes.
