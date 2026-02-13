@@ -76,7 +76,7 @@ La clé sera créée dans `C:\Users\<votre-utilisateur>\.ssh\id_ed25519`.
 {{< /tab >}}
 {{< /tabs >}}
 
-## Via le CLI OpenStack
+## Via la CLI OpenStack
 
 ```bash
 # Lister vos paires de clés
