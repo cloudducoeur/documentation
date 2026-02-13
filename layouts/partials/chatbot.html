@@ -1,0 +1,213 @@
+<!-- Chatbot FAQ Cloud du Cœur -->
+<div id="chatbot-fab" class="chatbot-fab" title="Besoin d'aide ?">
+  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"/>
+  </svg>
+</div>
+
+<div id="chatbot-window" class="chatbot-window chatbot-hidden">
+  <div class="chatbot-header">
+    <div class="chatbot-header-left">
+      <img src="{{ "img/logo.png" | relURL }}" alt="Cloud du Cœur" class="chatbot-header-logo" />
+      <span>Assistant Cloud du Cœur</span>
+    </div>
+    <button class="chatbot-close" aria-label="Fermer">&times;</button>
+  </div>
+
+  <div id="chatbot-messages" class="chatbot-messages">
+    <div class="chatbot-msg chatbot-msg-bot">
+      👋 Bonjour ! Je suis l'assistant du Cloud du Cœur. Comment puis-je vous aider ?
+    </div>
+    <div class="chatbot-suggestions" id="chatbot-suggestions">
+      <button class="chatbot-suggestion-btn" data-q="c-est-quoi">C'est quoi le Cloud du Cœur ?</button>
+      <button class="chatbot-suggestion-btn" data-q="commencer">Comment bien commencer ?</button>
+      <button class="chatbot-suggestion-btn" data-q="services">Quels services sont disponibles ?</button>
+      <button class="chatbot-suggestion-btn" data-q="aide">Comment obtenir de l'aide ?</button>
+      <button class="chatbot-suggestion-btn" data-q="contribuer">Comment contribuer ?</button>
+      <button class="chatbot-suggestion-btn" data-q="openstack">C'est quoi OpenStack ?</button>
+      <button class="chatbot-suggestion-btn" data-q="console">Comment accéder à la console ?</button>
+      <button class="chatbot-suggestion-btn" data-q="flavors">Quels gabarits sont disponibles ?</button>
+      <button class="chatbot-suggestion-btn" data-q="images">Quelles images système ?</button>
+      <button class="chatbot-suggestion-btn" data-q="cli">Comment utiliser la CLI ?</button>
+      <button class="chatbot-suggestion-btn" data-q="engagements">Quels sont vos engagements ?</button>
+      <button class="chatbot-suggestion-btn" data-q="contact">Comment vous contacter ?</button>
+    </div>
+  </div>
+
+  <div class="chatbot-input-bar">
+    <input type="text" id="chatbot-input" class="chatbot-input" placeholder="Tapez votre question…" autocomplete="off" />
+    <button id="chatbot-send" class="chatbot-send" aria-label="Envoyer">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/>
+      </svg>
+    </button>
+  </div>
+</div>
+
+<script>
+(function() {
+  // Base de connaissances FAQ
+  const faq = {
+    "c-est-quoi": {
+      q: "C'est quoi le Cloud du Cœur ?",
+      a: "Le <strong>Cloud du Cœur</strong> est un projet informatique initié par des bénévoles des Restos du Cœur. Il vise à construire une infrastructure cloud éthique, économique et open source, dédiée aux besoins technologiques de l'association. Chaque euro économisé, c'est un repas de plus ! 🍽️<br><br>👉 <a href='/en-savoir-plus/cest-quoi/'>En savoir plus</a>"
+    },
+    "commencer": {
+      q: "Comment bien commencer ?",
+      a: "Pour commencer :<br><br>1. <strong>Obtenir un accès</strong> : vous devez disposer d'un compte <code>@restosducoeur.org</code>. Le SSO est actif sur tous les produits.<br>2. <strong>Se connecter à la console</strong> : rendez-vous sur <a href='https://console.aucoeurdu.cloud' target='_blank'>console.aucoeurdu.cloud</a>.<br><br>👉 <a href='/doc/bien-commencer/'>Guide complet</a>"
+    },
+    "services": {
+      q: "Quels services sont disponibles ?",
+      a: "Le Cloud du Cœur fournit des services d'infrastructure via <strong>OpenStack</strong> :<br>• <strong>Compute</strong> (Nova) : machines virtuelles<br>• <strong>Réseau</strong> (Neutron) : réseau virtuel<br>• <strong>Stockage</strong> (Cinder) : volumes et sauvegardes<br>• <strong>Images</strong> (Glance) : catalogue d'images système<br><br>Tous ces services sont accessibles via la <a href='https://console.aucoeurdu.cloud' target='_blank'>console</a>, l'API ou la CLI.<br><br>👉 <a href='/en-savoir-plus/les-services/'>Détail des services</a>"
+    },
+    "aide": {
+      q: "Comment obtenir de l'aide ?",
+      a: "Plusieurs canaux de support sont disponibles :<br><br>• <strong>Slack</strong> : canal privilégié, le plus réactif 💬<br>• <strong>E-mail</strong> : <a href='mailto:cloudducoeur@restosducoeur.org'>cloudducoeur@restosducoeur.org</a><br>• <strong>Diagnostic réseau</strong> : <a href='https://monip.cloudducoeur.org' target='_blank'>monip.cloudducoeur.org</a><br><br>👉 <a href='/doc/aide/'>Page d'aide</a>"
+    },
+    "contribuer": {
+      q: "Comment contribuer ?",
+      a: "Vous pouvez contribuer de plusieurs façons :<br><br>• <strong>Au projet</strong> : contactez <a href='mailto:cloudducoeur@restosducoeur.org'>cloudducoeur@restosducoeur.org</a><br>• <strong>À la documentation</strong> : fork le dépôt <a href='https://github.com/cloudducoeur/documentation' target='_blank'>GitHub</a>, lancez l'environnement local avec <code>docker compose up</code>, créez une branche et soumettez une Pull Request.<br><br>👉 <a href='/doc/contribuer/'>Guide de contribution</a>"
+    },
+    "openstack": {
+      q: "C'est quoi OpenStack ?",
+      a: "<strong>OpenStack</strong> est une plateforme open source de Cloud Computing. Le Cloud du Cœur l'utilise pour fournir ses services d'infrastructure. Elle se compose de micro-services : <strong>Nova</strong> (compute), <strong>Neutron</strong> (réseau), <strong>Cinder</strong> (stockage), <strong>Glance</strong> (images).<br><br>👉 <a href='https://www.openstack.org/' target='_blank'>Site officiel OpenStack</a>"
+    },
+    "console": {
+      q: "Comment accéder à la console ?",
+      a: "La console OpenStack (Horizon) est disponible à l'adresse :<br><br>🔗 <a href='https://console.aucoeurdu.cloud' target='_blank'>console.aucoeurdu.cloud</a><br><br>Connectez-vous avec vos identifiants SSO <code>@restosducoeur.org</code>."
+    },
+    "flavors": {
+      q: "Quels gabarits sont disponibles ?",
+      a: "Les gabarits (flavors) définissent les ressources d'une instance. Ils vont du nano au haute performance :<br><br>• <strong>Nano</strong> : 1 vCPU, 1-2 Go RAM<br>• <strong>Petit</strong> : 2 vCPU, 4-8 Go RAM<br>• <strong>Intermédiaire</strong> : 4 vCPU, 8-16 Go RAM<br>• <strong>Intensif</strong> : 8 vCPU, 16-32 Go RAM<br>• <strong>Haute perf</strong> : 16-32 vCPU, 64-128 Go RAM<br><br>👉 <a href='/doc/openstack/compute/flavors/'>Liste complète</a>"
+    },
+    "images": {
+      q: "Quelles images système sont disponibles ?",
+      a: "Le catalogue d'images inclut :<br><br>• <strong>Debian</strong> 12 (Bookworm)<br>• <strong>Ubuntu</strong> 24.04 LTS<br>• <strong>AlmaLinux</strong> 9<br><br>Toutes les images incluent <code>cloud-init</code> pour la configuration automatique. Vous pouvez aussi importer vos propres images au format QCOW2 ou RAW.<br><br>👉 <a href='/doc/openstack/compute/images/'>En savoir plus</a>"
+    },
+    "cli": {
+      q: "Comment utiliser la CLI OpenStack ?",
+      a: "La CLI (Command Line Interface) vous permet de gérer vos ressources en ligne de commande. Installez-le via pip :<br><br><code>pip install python-openstackclient</code><br><br>Puis configurez-le avec vos identifiants. L'API est disponible à l'adresse <code>api.chartres.aucoeurdu.cloud</code>.<br><br>👉 <a href='/doc/cli/'>Guide CLI</a>"
+    },
+    "engagements": {
+      q: "Quels sont vos engagements ?",
+      a: "Le Cloud du Cœur s'engage sur plusieurs piliers :<br><br>🌱 <strong>Écoconception</strong> : matériel revalorisé, pas d'achats inutiles<br>🔓 <strong>Open Source</strong> : 100% technologies libres<br>📚 <strong>Accessibilité</strong> : documentation claire, formation des bénévoles<br>🏛️ <strong>Autonomie</strong> : IPs propres, backbone propre, cloud souverain<br><br>👉 <a href='/en-savoir-plus/engagements/'>Nos engagements</a>"
+    },
+    "contact": {
+      q: "Comment vous contacter ?",
+      a: "Vous pouvez nous joindre par :<br><br>📧 <strong>E-mail</strong> : <a href='mailto:cloudducoeur@restosducoeur.org'>cloudducoeur@restosducoeur.org</a><br>💬 <strong>Slack</strong> : canal dédié (le plus rapide)<br>🐙 <strong>GitHub</strong> : <a href='https://github.com/cloudducoeur/documentation' target='_blank'>github.com/cloudducoeur</a>"
+    }
+  };
+
+  // Mots-clés pour la recherche floue
+  const keywords = {
+    "c-est-quoi": ["quoi", "cloud", "coeur", "projet", "restos", "association", "présentation", "c'est"],
+    "commencer": ["commencer", "débuter", "premier", "compte", "accès", "inscription", "démarrer", "start"],
+    "services": ["services", "offre", "fournit", "propose", "infrastructure", "iaas"],
+    "aide": ["aide", "help", "support", "problème", "erreur", "bug", "panne", "slack"],
+    "contribuer": ["contribuer", "contribution", "participer", "github", "pull request", "pr", "bénévole"],
+    "openstack": ["openstack", "nova", "neutron", "cinder", "glance", "plateforme"],
+    "console": ["console", "horizon", "interface", "dashboard", "tableau de bord", "connexion", "connecter", "login"],
+    "flavors": ["flavor", "gabarit", "vcpu", "ram", "taille", "ressource", "instance type", "perf"],
+    "images": ["image", "debian", "ubuntu", "almalinux", "os", "système", "qcow", "système d'exploitation"],
+    "cli": ["cli", "commande", "terminal", "ligne de commande", "openstack client", "pip", "api"],
+    "engagements": ["engagement", "éthique", "éco", "open source", "valeur", "libre", "souverain"],
+    "contact": ["contact", "mail", "email", "joindre", "écrire", "appeler"]
+  };
+
+  // Éléments du DOM
+  const fab = document.getElementById('chatbot-fab');
+  const win = document.getElementById('chatbot-window');
+  const closeBtn = win.querySelector('.chatbot-close');
+  const messagesEl = document.getElementById('chatbot-messages');
+  const suggestionsEl = document.getElementById('chatbot-suggestions');
+  const input = document.getElementById('chatbot-input');
+  const sendBtn = document.getElementById('chatbot-send');
+
+  // Toggle du chatbot
+  fab.addEventListener('click', function() {
+    win.classList.toggle('chatbot-hidden');
+    fab.classList.toggle('chatbot-fab-hidden');
+    if (!win.classList.contains('chatbot-hidden')) {
+      input.focus();
+    }
+  });
+
+  closeBtn.addEventListener('click', function() {
+    win.classList.add('chatbot-hidden');
+    fab.classList.remove('chatbot-fab-hidden');
+  });
+
+  // Gestion des suggestions
+  suggestionsEl.addEventListener('click', function(e) {
+    const btn = e.target.closest('.chatbot-suggestion-btn');
+    if (!btn) return;
+    const key = btn.dataset.q;
+    handleQuestion(key, faq[key].q);
+  });
+
+  // Envoi via input
+  sendBtn.addEventListener('click', function() { processInput(); });
+  input.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') { processInput(); }
+  });
+
+  function processInput() {
+    const text = input.value.trim();
+    if (!text) return;
+    input.value = '';
+
+    // Chercher la meilleure correspondance
+    const match = findBestMatch(text);
+    if (match) {
+      handleQuestion(match, text);
+    } else {
+      addMessage(text, 'user');
+      addMessage("Je n'ai pas trouvé de réponse à votre question. Essayez l'une des suggestions ci-dessous, ou contactez-nous par <a href='mailto:cloudducoeur@restosducoeur.org'>e-mail</a> ou sur <strong>Slack</strong>.", 'bot');
+      showSuggestions();
+    }
+  }
+
+  function findBestMatch(text) {
+    const lower = text.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    let bestKey = null;
+    let bestScore = 0;
+
+    for (const [key, words] of Object.entries(keywords)) {
+      let score = 0;
+      for (const word of words) {
+        const w = word.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+        if (lower.includes(w)) score++;
+      }
+      if (score > bestScore) {
+        bestScore = score;
+        bestKey = key;
+      }
+    }
+    return bestScore > 0 ? bestKey : null;
+  }
+
+  function handleQuestion(key, questionText) {
+    addMessage(questionText, 'user');
+    suggestionsEl.style.display = 'none';
+
+    // Petit délai pour simuler la "réflexion"
+    setTimeout(function() {
+      addMessage(faq[key].a, 'bot');
+      setTimeout(showSuggestions, 300);
+    }, 400);
+  }
+
+  function addMessage(html, type) {
+    const div = document.createElement('div');
+    div.className = 'chatbot-msg chatbot-msg-' + type;
+    div.innerHTML = html;
+    messagesEl.appendChild(div);
+    messagesEl.scrollTop = messagesEl.scrollHeight;
+  }
+
+  function showSuggestions() {
+    suggestionsEl.style.display = 'flex';
+    messagesEl.scrollTop = messagesEl.scrollHeight;
+  }
+})();
+</script>
