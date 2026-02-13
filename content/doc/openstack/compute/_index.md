@@ -5,8 +5,6 @@ draft: false
 type: docs
 ---
 
-<img src="./cdc-illustration-compute.gif" alt="OpenStack Compute" style="width: 35%;">
-
 Le service **Compute** (basé sur OpenStack Nova) vous permet de créer et gérer des machines virtuelles (instances) sur la plateforme Cloud du Cœur.
 
 ## Fonctionnalités principales
