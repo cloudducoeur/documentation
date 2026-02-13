@@ -29,6 +29,10 @@ Chaque zone de disponibilité correspond à un ensemble isolé de ressources mat
 | mar2 | Marseille (MAR) | Standby |
 | mar3 | Marseille (MAR) | Standby |
 
+{{% callout type="info" %}}
+AZ est le diminutif d'**availability zone** (Zone de disponibilité). Sur le Cloud du Coeur, une AZ = un centre de donnés.
+{{% /callout %}}
+
 ### Cas d'usage
 
 #### Haute disponibilité
