@@ -15,6 +15,20 @@ Chaque zone de disponibilité correspond à un ensemble isolé de ressources mat
 
 ![](./cdc-illustration-az.png)
 
+## Les zones disponibles
+
+| Nom de l'AZ | Région | Etat |
+|---|---|---|
+| par1 | Paris (PAR) | En production |
+| par2 | Paris (PAR)  | En construction |
+| par3 | Paris (PAR)  | En construction |
+| cha1 | Chartres (CHA) | En production |
+| cha2 | Chartres (CHA) | En construction |
+| cha3 | Chartres (CHA) | Standby |
+| mar1 | Marseille (MAR) | En construction |
+| mar2 | Marseille (MAR) | Standby |
+| mar3 | Marseille (MAR) | Standby |
+
 ## Cas d'usage
 
 ### Haute disponibilité
