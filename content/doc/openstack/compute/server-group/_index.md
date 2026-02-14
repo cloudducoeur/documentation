@@ -5,6 +5,8 @@ draft: false
 type: docs
 ---
 
+<img src="./cdc-illustration-osk-server-group.gif" alt="OpenStack Server Group" style="width: 25%;">
+
 Les **groupes de serveurs** (Server Groups) vous permettent de contrôler la répartition de vos instances sur les hyperviseurs physiques. C'est un outil essentiel pour garantir la **haute disponibilité** ou maximiser les **performances** de vos applications.
 
 ### Les politiques de placement
