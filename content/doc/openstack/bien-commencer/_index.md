@@ -3,6 +3,8 @@ title: 'Bien commencer'
 description:
 draft: false
 type: docs
+next: /doc/openstack/cli
+prev: doc/openstack
 ---
 
 <img src="./cdc-illustration-bien-commencer.png" alt="Bien commencer" style="width: 35%;">
