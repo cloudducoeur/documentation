@@ -5,9 +5,9 @@ draft: false
 type: docs
 ---
 
-Vous souhaitez utiliser la plateforme du Cloud du Coeur, suivez cette documentation pour bien commencer.
+<img src="./cdc-illustration-bien-commencer.png" alt="Bien commencer" style="width: 35%;">
 
-<img src="./cdc-illustration-bien-commencer.png" alt="Bien commencer" style="width: 50%;">
+Vous souhaitez utiliser la plateforme du Cloud du Coeur, suivez cette documentation pour bien commencer.
 
 {{% steps %}}
 
