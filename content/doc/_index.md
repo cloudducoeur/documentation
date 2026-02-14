@@ -16,5 +16,4 @@ cascade:
   {{< card link="la-forge" title="Forge" subtitle="Découvrez la forge et déployer votre code dans un endroit sur et automatisé" icon="gitlab" >}}
   {{< card link="aide" title="Trouver de l'aide" subtitle="Vous êtes perdu, regardez comment contacter le support." icon="support" >}}
   {{< card link="openstack" title="Plateforme Cloud (OpenStack)" subtitle="Jouer avec vos ressources dans le Cloud du Coeur." icon="command-line" >}}
-  {{< card link="contribuer" title="Contribuer" subtitle="Vous souhaitez contribuer à cette documentation ou au projet directement?" icon="pencil-alt" >}}
 {{< /cards >}}
