@@ -1,5 +1,5 @@
 ---
-title: 'Pour bien commencer'
+title: 'Bien commencer'
 description:
 draft: false
 type: docs
