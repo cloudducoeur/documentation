@@ -5,6 +5,8 @@ draft: false
 type: docs
 ---
 
+<img src="./cdc-illustration-osk-security-groups.gif" alt="OpenStack Security Groups" style="width: 25%;">
+
 Les **groupes de sécurité** agissent comme un pare-feu virtuel au niveau de l'instance. Tout trafic entrant est bloqué par défaut, sauf si une règle l'autorise explicitement.
 
 ### Gérer les règles via la console
