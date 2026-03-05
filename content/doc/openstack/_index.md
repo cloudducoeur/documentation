@@ -5,8 +5,6 @@ draft: false
 type: docs
 ---
 
-## Présentation de la plateforme cloud
-
 La plateforme cloud est une solution d'infrastructure modulaire et évolutive qui vous permet de gérer l'ensemble de vos ressources informatiques (calcul, stockage, réseau) de manière centralisée et efficace.
 
 ### Qu'est-ce qu'OpenStack ?
