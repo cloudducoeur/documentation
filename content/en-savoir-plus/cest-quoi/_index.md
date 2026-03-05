@@ -9,8 +9,6 @@ Le *Cloud du Coeur* est parti d'une idée, celle de rendre l'accès à l'infrast
 
 Pour les plus novices, le "Cloud du Cœur" est un projet informatique initié par des bénévoles des Restos du Cœur pour construire une infrastructure cloud éthique et la plus économique possible, dédiée à répondre aux besoins technologiques de l’association fiablement.
 
-![](cdc-explication1.png)
-
 ## Pourquoi ?
 
 L’informatique est devenue vitale pour le fonctionnement des Restos (gestion des bénévoles, des centres, des repas, etc.).
@@ -35,7 +33,7 @@ Objectifs :
 
 ## Qu’est-ce que c’est concrètement ?
 
-![](cdc-explication3.png)
+![](./cdc-illustration-1.png)
 
 Une infrastructure de cloud privée construite avec :
 
