@@ -7,6 +7,8 @@ type: docs
 
 <img src="./cdc-illustration-aide.gif" alt="Aide" style="width: 40%;">
 
+## Nous contacter
+
 Vous rencontrez des problèmes sur les différents produits, vous pouvez contacter l'équipe du Cloud du Coeur via :
 
 {{< cards >}}
