@@ -39,6 +39,8 @@ Les pipelines CI/CD nous permettent également de déployer automatiquement nos 
 
 ## Collaboration et gestion de projet
 
+<img src="./cdc-illustration-la-forge-1.png" alt="La forge - Collaboration" style="width:60%;">
+
 Au-delà du code, la forge sert de hub central pour la coordination de nos projets techniques. Les issues permettent de tracker les bugs et les demandes d'évolution, les merge requests facilitent la revue de code collaborative, et les wikis centralisent la documentation technique.
 
 Cette approche unifiée évite la dispersion des informations entre différents outils et facilite l'onboarding des nouveaux contributeurs. Un développeur peut accéder à l'ensemble du contexte d'un projet depuis une interface unique : code, documentation, historique des décisions et roadmap.
