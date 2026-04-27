@@ -16,6 +16,10 @@ Ainsi qu'une plateforme d'[observabilité](https://doc.aucoeurdu.cloud/guides/ob
 
 <img src="./cdc-guides.png" alt="Guides du Cloud du Coeur" style="width: 85%;">
 
+Dans les faits, voici comment tout cela s'intègre :
+
+<img src="./cdc-guides-outils.gif" alt="Guides du Cloud du Coeur - Outils" style="width: 85%;">
+
 ## Technologies
 
 Suivez étape par étape pour déployer différents types de services déjà documentés et utilisés sur la plateforme.
