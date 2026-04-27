@@ -15,8 +15,10 @@ Vous rencontrez des problèmes sur les différents produits, vous pouvez contact
   {{< card link="https://tickoeur.restosducoeur.org/" title="Un ticket" subtitle="Pour être honnête... C'est ce que l'on préfère!" icon="compute" >}}
 {{< /cards >}}
 
+## Déboguer votre connexion
+
+<img src="./cdc-illustration-speedtest.png" alt="Speedtest" style="width: 40%;">
+
 Dans le cas où vous rencontrez un problème d'accès à une application, vous pouvez dès à présent vous rendre sur l'outil suivant et partager les informations aux personnes du Cloud du Coeur :
 
 - [monip.cloudducoeur.org](https://monip.cloudducoeur.org)
-
-<img src="./cdc-illustration-speedtest.png" alt="Speedtest" style="width: 40%;">
