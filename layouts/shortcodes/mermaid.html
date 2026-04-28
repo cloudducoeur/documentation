@@ -1,0 +1,8 @@
+{{- $diagram := .InnerDeindent | strings.TrimSpace -}}
+{{- if eq $diagram "" -}}
+  {{- errorf "shortcode mermaid: contenu du diagramme manquant" -}}
+{{- end -}}
+
+<div class="mermaid">
+  {{- $diagram -}}
+</div>

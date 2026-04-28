@@ -28,6 +28,41 @@
       {{ partial "footer.html" . }}
     {{ end }}
     {{ partial "scripts.html" . }}
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+
+      mermaid.initialize({
+        startOnLoad: false,
+        securityLevel: 'loose'
+      });
+
+      function renderMermaidDiagrams() {
+        document.querySelectorAll('pre code.language-mermaid').forEach(function(codeBlock, index) {
+          var pre = codeBlock.parentElement;
+
+          if (!pre || pre.dataset.mermaidProcessed === 'true') {
+            return;
+          }
+
+          var container = document.createElement('div');
+          container.className = 'mermaid';
+          container.id = 'mermaid-diagram-' + index;
+          container.textContent = codeBlock.textContent;
+          pre.dataset.mermaidProcessed = 'true';
+          pre.replaceWith(container);
+        });
+
+        mermaid.run({
+          querySelector: '.mermaid'
+        });
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', renderMermaidDiagrams);
+      } else {
+        renderMermaidDiagrams();
+      }
+    </script>
     {{- partial "chatbot.html" . -}}
   </body>
 </html>
