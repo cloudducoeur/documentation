@@ -33,35 +33,4 @@ Pour vous connecter, vous devez aller sur :
 
 ![](./cdc-login-page.png)
 
-### Créer sa première instance
-
-{{% mermaid %}}
-flowchart LR
-
-User( Utilisateur ) --> VM
-
-subgraph Cloud[Cloud du Coeur]
-  VM( Créer une VM )
-  Net( Connecter à un réseau )
-  IP( Assigner une IP publique )
-
-  VM --> Net
-  Net --> IP
-end
-
-IP --> Ready( L'instance est prête )
-
-%% Style
-classDef main fill:#e5007d,color:#ffffff,stroke:#e5007d
-classDef step fill:#1396db,stroke:#1396db,color:#fff
-classDef cloud fill:#D4D4D4,stroke:#D4D4D4,stroke-width:2px
-
-class VM,Net,IP main
-class User,Ready step
-class Cloud cloud
-
-%% Animation des flèches
-linkStyle default stroke-dasharray: 9,5,stroke-dashoffset: 900,animation: dash 25s linear infinite;
-{{% /mermaid %}}
-
 {{% /steps %}}
