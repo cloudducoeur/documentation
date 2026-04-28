@@ -260,6 +260,17 @@ h1, h2, h3, h4, h5, h6,
   }
 }
 
+.mermaid .flowchart-link {
+  stroke-dasharray: 6;
+  animation: dash 2s linear infinite;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: -12;
+  }
+}
+
 /* ===== Chatbot FAQ ===== */
 .chatbot-fab {
   position: fixed;
