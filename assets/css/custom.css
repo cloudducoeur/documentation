@@ -280,7 +280,7 @@ h1, h2, h3, h4, h5, h6,
   bottom: 0.6rem;
   left: 0.45rem;
   width: 2px;
-  background: linear-gradient(180deg, rgba(122, 195, 237, 0.8), rgba(247, 181, 0, 0.8));
+  background: #e5007d;
 }
 
 .project-timeline > h3 {
