@@ -9,7 +9,7 @@ Pour comprendre comment nous en sommes arrivés à créer une plateforme de Clou
 
 <img src="./cdc-illustration-historique.gif" alt="Historique" style="width: 55%;">
 
-{{% steps %}}
+{{% timeline %}}
 
 ### Le "pc qui traîne dans un coin"
 
@@ -48,4 +48,4 @@ L'idée était toujours là, celle de pouvoir héberger tout le monde sans que �
 
 Avec ces 3 baies, le Cloud du Coeur est né.
 
-{{% /steps %}}
+{{% /timeline %}}

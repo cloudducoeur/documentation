@@ -260,6 +260,123 @@ h1, h2, h3, h4, h5, h6,
   }
 }
 
+/* ===== Timeline ===== */
+.project-timeline {
+  --timeline-line-color: rgba(38, 50, 56, 0.15);
+  --timeline-dot-color: #f7b500;
+  --timeline-card-border: rgba(38, 50, 56, 0.08);
+  --timeline-card-bg: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(247, 249, 250, 0.98));
+  position: relative;
+  display: grid;
+  gap: 1rem;
+  margin: 2rem 0;
+  padding-left: clamp(1.5rem, 3vw, 2.75rem);
+}
+
+.project-timeline::before {
+  content: "";
+  position: absolute;
+  top: 0.6rem;
+  bottom: 0.6rem;
+  left: 0.45rem;
+  width: 2px;
+  background: linear-gradient(180deg, rgba(122, 195, 237, 0.8), rgba(247, 181, 0, 0.8));
+}
+
+.project-timeline > h3 {
+  position: relative;
+  margin: 0;
+  padding: 0.15rem 0 0 0.35rem;
+  font-size: clamp(1.35rem, 1.2rem + 0.5vw, 1.75rem);
+}
+
+.project-timeline > h3:not(:first-child) {
+  margin-top: 1.75rem;
+}
+
+.project-timeline > h3::before {
+  content: "";
+  position: absolute;
+  top: 0.6rem;
+  left: calc(-1 * clamp(1.5rem, 3vw, 2.75rem));
+  width: 0.95rem;
+  height: 0.95rem;
+  border: 3px solid #fff;
+  border-radius: 999px;
+  background: var(--timeline-dot-color);
+  box-shadow: 0 0 0 6px rgba(247, 181, 0, 0.16);
+}
+
+.project-timeline > :not(h3) {
+  margin: 0 0 0 0.35rem;
+  padding: 0 0 0 1.15rem;
+}
+
+.project-timeline > h3 + p,
+.project-timeline > h3 + ul {
+  margin-top: 0.15rem;
+}
+
+.project-timeline > p,
+.project-timeline > ul {
+  max-width: 52rem;
+}
+
+.project-timeline > ul {
+  padding-left: 2.35rem;
+}
+
+.project-timeline > p:has(img) {
+  margin-top: 0.25rem;
+  padding: 1rem 1rem 0.5rem 1.15rem;
+  border: 1px solid var(--timeline-card-border);
+  border-radius: 1rem;
+  background: var(--timeline-card-bg);
+  box-shadow: 0 18px 45px rgba(38, 50, 56, 0.08);
+}
+
+.project-timeline > p:has(img) img {
+  width: 100%;
+  margin: 0;
+  border-radius: 0.75rem;
+}
+
+.dark .project-timeline {
+  --timeline-line-color: rgba(255, 255, 255, 0.12);
+  --timeline-card-border: rgba(255, 255, 255, 0.08);
+  --timeline-card-bg: linear-gradient(180deg, rgba(31, 41, 55, 0.92), rgba(17, 24, 39, 0.92));
+}
+
+.dark .project-timeline > h3::before {
+  border-color: #0f172a;
+}
+
+@media (max-width: 768px) {
+  .project-timeline {
+    padding-left: 1.25rem;
+  }
+
+  .project-timeline::before {
+    left: 0.35rem;
+  }
+
+  .project-timeline > h3::before {
+    left: -1.25rem;
+  }
+
+  .project-timeline > :not(h3) {
+    padding-left: 0.85rem;
+  }
+
+  .project-timeline > ul {
+    padding-left: 2rem;
+  }
+
+  .project-timeline > p:has(img) {
+    padding: 0.85rem 0.85rem 0.35rem 0.85rem;
+  }
+}
+
 .mermaid .flowchart-link {
   stroke-dasharray: 6;
   animation: dash 2s linear infinite;
