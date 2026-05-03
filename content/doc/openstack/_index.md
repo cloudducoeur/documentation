@@ -7,6 +7,8 @@ type: docs
 
 La plateforme cloud est une solution d'infrastructure modulaire et évolutive qui vous permet de gérer l'ensemble de vos ressources informatiques (calcul, stockage, réseau) de manière centralisée et efficace.
 
+<br>
+
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1188790774?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1&amp;loop=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Cloud du Coeur - Vue d'ensemble"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 ### Qu'est-ce qu'OpenStack ?
