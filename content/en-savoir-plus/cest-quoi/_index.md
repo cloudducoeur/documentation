@@ -26,8 +26,8 @@ Objectifs :
 ## Les principes fondateurs
 
 - [Éco-conception](/en-savoir-plus/cest-quoi/les-principes-fondamentaux/eco-conception/) (réduction de l'empreinte écologique)
-- Indépendance technologique et autonomie stratégique
-- Automatisation, transparence, et documentation
+- [Indépendance technologique](/en-savoir-plus/cest-quoi/les-principes-fondamentaux/independance-technologique/) et autonomie stratégique
+- [Automatisation](/en-savoir-plus/cest-quoi/les-principes-fondamentaux/automatisation/), transparence, et documentation
 - Technologies ouvertes
 - Accès facilité aux différents acteurs (bénévoles techs, prestataires, etc)
 
