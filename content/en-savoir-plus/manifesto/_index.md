@@ -1,6 +1,6 @@
 ---
 title: "Le manifeste"
-linkTitle: "Le manifest"
+linkTitle: "Le manifeste"
 description:
 draft: false
 type: docs
