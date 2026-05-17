@@ -5,5 +5,5 @@ type: docs
 ---
 
 {{< cards >}}
-  {{< card link="tuto-observabilite-account" title="Accéder à Grafana" subtitle="Vous chercher à accéder à la visualisation des données d'observabilité" icon="user" >}}
+  {{< card link="tuto-observabilite-account" title="Accéder à Grafana" subtitle="Vous cherchez à accéder à la visualisation des données d'observabilité" icon="user" >}}
 {{< /cards >}}

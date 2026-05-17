@@ -28,7 +28,7 @@ Suivez étape par étape pour déployer différents types de services déjà doc
   {{< card link="hebergement-web-wordpress" title="Wordpress" subtitle="Vous avez besoin d'héberger un service Wordpress" icon="wordpress" >}}
   {{< card link="hebergement-php" title="PHP 7 ou 8" subtitle="Vous avez besoin d'héberger un service PHP 7 ou 8" icon="php" >}}
   {{< card link="hebergement-python" title="Python 3" subtitle="Vous avez besoin d'héberger un service Python 3" icon="python" >}}
-  {{< card link="hebergement-posgresql" title="PosgreSQL" subtitle="Vous avez besoin d'une base de données PosgreSQL" icon="pg" >}}
+  {{< card link="hebergement-postgresql" title="PostgreSQL" subtitle="Vous avez besoin d'une base de données PostgreSQL" icon="pg" >}}
   {{< card link="hebergement-mariadb" title="MariaDB" subtitle="Vous avez besoin d'une base de données MariaDB/MySQL" icon="mysql" >}}
   {{< card link="hebergement-kubernetes" title="Kubernetes" subtitle="Vous avez besoin d'un cluster Kubernetes" icon="kubernetes" >}}
 {{< /cards >}}

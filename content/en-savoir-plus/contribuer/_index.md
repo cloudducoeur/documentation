@@ -19,6 +19,6 @@ Pour contribuer à cette documentation, nous vous invitons à regarder cette doc
 
 ## Au projet du Cloud du Coeur
 
-Si vous souhaitez nous aider sur ce projet, n’hésites pas à nous contacter par e-mail :
+Si vous souhaitez nous aider sur ce projet, n’hésitez pas à nous contacter par e-mail :
 
 - [cloudducoeur@restosducoeur.org](mailto:cloudducoeur@restosducoeur.org)

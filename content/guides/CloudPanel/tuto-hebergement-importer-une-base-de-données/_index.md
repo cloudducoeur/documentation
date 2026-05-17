@@ -22,7 +22,7 @@ Une fois la base sélectionnée, son nom apparaîtra dans la bar du haut de la c
 Ainsi, pour terminer, rendez-vous dans l'onglet "Importer", puis sélectionnez votre fichier à importer.
 
 {{< callout type="info" >}}
-Il est important de noter que ce fichier ne doit pas excéder **100mo**, dans le cas contraire, veuillez contacter le support du Cloud du Coeur via e-mail (cloudducoeur@restosducoeur.org).
+Il est important de noter que ce fichier ne doit pas excéder **100 Mo**, dans le cas contraire, veuillez contacter le support du Cloud du Coeur via e-mail (cloudducoeur@restosducoeur.org).
 {{< /callout >}}
 
 Vous devrez terminer par cliquer sur "Importer".
