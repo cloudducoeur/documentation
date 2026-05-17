@@ -8,7 +8,7 @@ cascade:
   type: docs
 ---
 
-## Les environnements
+### Les environnements
 
 {{< cards >}}
   {{< card link="openstack" title="Plateforme Cloud (OpenStack)" subtitle="Jouer avec vos ressources dans le Cloud du Coeur." icon="command-line" >}}
@@ -16,7 +16,7 @@ cascade:
   {{< card link="la-forge" title="La forge (Gitlab)" subtitle="Découvrez la forge et déployer votre code dans un endroit sûr et automatisé" icon="gitlab" >}}
 {{< /cards >}}
 
-## Aller plus loin
+### Aller plus loin
 
 {{< cards >}}
   {{< card link="openstack/bien-commencer" title="Bien commencer" subtitle="Etre prêt à déployer ses services sur la plateforme Cloud" icon="arrow-circle-right" >}}
