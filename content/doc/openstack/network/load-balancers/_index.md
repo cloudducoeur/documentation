@@ -5,6 +5,8 @@ draft: false
 type: docs
 ---
 
+<img src="./cdc-illustration-octavia-logo.png" alt="OpenStack LB" style="width: 70%;">
+
 Le service d'équilibrage de charge (Load Balancer as a Service - Octavia) permet de distribuer les requêtes entrantes vers un pool d'instances, améliorant ainsi la performance et la fiabilité de vos applications.
 
 ### Concepts
