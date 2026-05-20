@@ -1,5 +1,5 @@
 ---
-title: "L'observabilité"
+title: "Plateforme d'observabilité"
 description:
 draft: false
 type: docs
