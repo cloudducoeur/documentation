@@ -19,6 +19,5 @@ cascade:
 ### Aller plus loin
 
 {{< cards >}}
-  {{< card link="openstack/bien-commencer" title="Bien commencer" subtitle="Etre prêt à déployer ses services sur la plateforme Cloud" icon="arrow-circle-right" >}}
   {{< card link="aide" title="Trouver de l'aide" subtitle="Vous êtes perdu, regardez comment contacter le support." icon="support" >}}
 {{< /cards >}}
