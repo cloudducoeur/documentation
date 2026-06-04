@@ -1,6 +1,5 @@
 ---
 title: 'Les environnements'
-linkTitle: Documentation
 draft: false
 disableSidebar: true
 type: docs

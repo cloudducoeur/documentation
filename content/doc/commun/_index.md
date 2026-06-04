@@ -1,6 +1,5 @@
 ---
 title: 'Aller plus loin'
-linkTitle: Documentation
 draft: false
 disableSidebar: true
 type: docs

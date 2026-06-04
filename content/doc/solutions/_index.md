@@ -1,6 +1,5 @@
 ---
 title: 'Les solutions'
-linkTitle: Documentation
 draft: false
 disableSidebar: true
 type: docs
