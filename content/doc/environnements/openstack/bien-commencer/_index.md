@@ -20,7 +20,7 @@ Pour commencer, vous devez avoir un compte `@restosducoeur.org` pour accéder au
 Le SSO est actif sur les différents produits mis à disposition (la console, la plateforme d'observabilité, etc).
 
 {{< callout type="info" >}}
-  Si vous rencontrez un souci pour vous connecter, veuillez lire [cette documentation](/doc/aide/).
+  Si vous rencontrez un souci pour vous connecter, veuillez lire [cette documentation](/doc/commun/aide/).
 {{< /callout >}}
 
 ### Se connecter à la console
