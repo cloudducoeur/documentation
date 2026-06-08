@@ -5,6 +5,8 @@ draft: false
 type: docs
 ---
 
+<img src="./cdc-illustration-dns.png" alt="OpenStack DNS" style="width: 70%;">
+
 Le service DNS d'OpenStack (Designate) vous permet de gérer vos zones et vos enregistrements directement depuis votre projet.
 
 Vous pouvez, par exemple, publier une application avec un nom de domaine lisible (`api.example.tld`) plutôt qu'avec une adresse IP.
