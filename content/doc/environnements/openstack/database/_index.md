@@ -5,6 +5,8 @@ draft: false
 type: docs
 ---
 
+<img src="./cdc-illustration-database.png" alt="OpenStack Database" style="width: 35%;">
+
 Le service Database d'OpenStack (Trove) permet de déployer des bases de donnees managées sans gerer vous-meme les machines virtuelles, le stockage et les operations de base.
 
 Vous pouvez créer rapidement une instance de base de donnees (MySQL, PostgreSQL, etc. selon disponibilite) et l'utiliser depuis vos applications.
