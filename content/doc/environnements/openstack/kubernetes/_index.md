@@ -5,6 +5,8 @@ draft: false
 type: docs
 ---
 
+<img src="./cdc-illustration-kube.png" alt="OpenStack Kube" style="width: 35%;">
+
 Le service Kubernetes d'OpenStack (Magnum) permet de déployer des clusters Kubernetes managés directement depuis votre projet.
 
 Vous obtenez un cluster pret à l'emploi, avec un plan de controle et des noeuds workers, sans gerer vous-meme toute l'infrastructure de base.
