@@ -18,6 +18,8 @@ OpenStack est une plateforme cloud open source qui permet de créer et de gérer
 - **Compute** : Créer et gérer des instances virtuelles (serveurs)
 - **Network** : Configurer des réseaux, des routeurs, des pare-feu et des adresses IP publiques
 - **Storage** : Gérer le stockage de fichiers et les sauvegardes
+- **Kubernetes** : Créer un cluster Kubernetes en 1 clic
+- **Database** : Créer une base de données en 1 clic
 
 ### Avantages de la solution
 
@@ -35,3 +37,5 @@ Découvrez nos guides complets pour commencer :
 3. **[Compute](compute/)** - Gérer vos instances et serveurs
 4. **[Network](network/)** - Configurer votre infrastructure réseau
 5. **[Storage](storage/)** - Gérer votre stockage de données
+6. **[Database](database/)** - Gérer votre base de données
+7. **[Kubernetes](kubernetes/)** - Déployer votre cluster Kubernetes
