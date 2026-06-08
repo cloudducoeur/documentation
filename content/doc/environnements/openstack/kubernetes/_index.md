@@ -18,17 +18,17 @@ Vous obtenez un cluster pret à l'emploi, avec un plan de controle et des noeuds
 *   **Node Group** : Groupe de noeuds workers (utile pour dimensionner votre cluster).
 *   **Kubeconfig** : Fichier de connexion pour administrer le cluster avec `kubectl`.
 
-### Creer un cluster Kubernetes via la console
+### Créer un cluster Kubernetes via la console
 
 {{% steps %}}
 
-#### Creer ou choisir un template
+#### Créer ou choisir un template
 
 1.  Allez dans **Container Infrastructure** → **Cluster Templates**.
 2.  Vérifiez qu'un template Kubernetes est disponible (ou créez-en un si votre projet y est autorise).
 3.  Contrôlez les parametres principaux : version Kubernetes, flavour des noeuds, image et reseau.
 
-#### Creer le cluster
+#### Créer le cluster
 
 1.  Allez dans **Container Infrastructure** → **Clusters**.
 2.  Cliquez sur **Create Cluster**.
@@ -37,7 +37,7 @@ Vous obtenez un cluster pret à l'emploi, avec un plan de controle et des noeuds
 5.  Definissez le nombre de noeuds (ex: 3) et les options de disponibilite.
 6.  Lancez la creation et attendez le statut `CREATE_COMPLETE`.
 
-#### Recuperer le kubeconfig
+#### Récupérer le kubeconfig
 
 1.  Ouvrez votre cluster.
 2.  Cliquez sur **Download Config** (ou equivalent).

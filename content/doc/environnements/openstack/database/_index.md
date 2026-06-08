@@ -32,11 +32,11 @@ Les versions disponibles peuvent evoluer selon l'environnement OpenStack. Pour a
 openstack database datastore version list <DATASTORE>
 ```
 
-### Creer une base de donnees via la console
+### Créer une base de donnees via la console
 
 {{% steps %}}
 
-#### Creer l'instance Trove
+#### Créer l'instance Trove
 
 1.  Allez dans **Database** → **Instances**.
 2.  Cliquez sur **Create Database Instance**.
@@ -49,7 +49,7 @@ openstack database datastore version list <DATASTORE>
 4.  Definissez l'utilisateur administrateur.
 5.  Validez et attendez le statut `ACTIVE`.
 
-#### Creer une base applicative
+#### Créer une base applicative
 
 1.  Ouvrez votre instance.
 2.  Allez dans l'onglet **Databases**.
