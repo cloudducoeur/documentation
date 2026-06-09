@@ -59,7 +59,7 @@ menu:
       weight: 2
     - identifier: aide
       name: Aide
-      pageRef: /doc/aide
+      pageRef: /doc/commun/aide
       weight: 2
     - identifier: blog
       name: Tech Blog
