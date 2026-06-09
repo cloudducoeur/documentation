@@ -5,7 +5,7 @@ draft: false
 type: docs
 ---
 
-<img src="./cdc-illustration-dns.png" alt="OpenStack DNS" style="width: 70%;">
+<img src="./cdc-illustration-dns.png" alt="OpenStack DNS" style="width: 35%;">
 
 Le service DNS d'OpenStack (Designate) vous permet de gérer vos zones et vos enregistrements directement depuis votre projet.
 
