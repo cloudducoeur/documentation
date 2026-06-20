@@ -16,7 +16,7 @@ type: docs
 
 Exécutez les commandes suivantes:
 
-```Shell
+```bash
 python3 -m venv oskclient
 source oskclient/bin/activate
 pip3 install --upgrade pip
@@ -46,7 +46,7 @@ Vou spouvez aussi changer le nom du fichier de script à votre convenance.
 
 Créez par exemple, le fichier `credoskpar.rc` avec le contenu suivant:
 
-```Shell
+```bash
 #!/usr/bin/env bash
 export OS_AUTH_URL=https://osk-api.par.aucoeurdu.cloud:5000/v3/
 export OS_APPLICATION_CREDENTIAL_ID=XXXXXXXXXXXXXXXX
@@ -125,7 +125,7 @@ avec les information du fichier JSON :
 
 Exécutez la commande suivante. Normalement la première fois, cela ne retourne qu'une ligne vide, car le projet OpenStack est vide.
 
-```Shell
+```bash
 openstack server list
 ```
 
@@ -138,7 +138,7 @@ Si besoin, vous pouvez activez le mode déboguage en ajouter l'option `--debug` 
 
 Par example :
 
-```Shell
+```bash
 openstack server list --debug
 ```
 
@@ -151,7 +151,7 @@ Pour se connecter aux futures VMs, il est préférable d'utiliser votre paire de
 
 Ajoutez la clé publique à votre projet avec la commande suivante :
 
-```Shell
+```bash
 openstack keypair create --public-key ~/.ssh/id_ed25519.pub mon_projet_os
 ```
 

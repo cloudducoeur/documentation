@@ -18,7 +18,7 @@ Information nécessaires pour créer une VM sur OpenStack:
 
 ### Commandes à utiliser pour la création du réseaux, subnet et security group
 
-```Shell
+```bash
 openstack network create <NOM_RESEAU>
 openstack subnet create --network <NOM_RESEAU> --subnet-range 192.168.100.0/24 <NOM_SUBNET>
 openstack security group create --stateful <SG_NAME>
@@ -47,7 +47,7 @@ A ajuster par rapport à votre contexte.
 
 ##### Création du réseau pour la future VM
 
-```Shell
+```bash
 (oskclient) ko@cdc:~/restos/openstack$ openstack network create dsh-net
 +---------------------------+--------------------------------------+
 | Field                     | Value                                |
@@ -88,7 +88,7 @@ A ajuster par rapport à votre contexte.
 
 ##### Création du sous-réseau IP interne pour la VM
 
-```Shell
+```bash
 (oskclient) ko@cdc:~/restos/openstack$ openstack subnet create --network dsh-net --subnet-range 192.168.100.0/24 dsh-subnet
 +----------------------+--------------------------------------+
 | Field                | Value                                |
@@ -123,7 +123,7 @@ A ajuster par rapport à votre contexte.
 
 ##### Création du groupe de sécurité
 
-```Shell
+```bash
 (oskclient) ko@cdc:~/restos/openstack$ openstack security group create --stateful dsh-sg
 +-----------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
 | Field           | Value                                                                                                                                            |
@@ -149,7 +149,7 @@ A ajuster par rapport à votre contexte.
 
 ##### Création des régles de sécurité associées au groupe de sécurité
 
-```Shell
+```bash
 (oskclient) ko@cdc:~/restos/openstack$ openstack security group rule create --egress dsh-sg
 Error while executing command: ConflictException: 409, Security group rule already exists. Rule id is 1c347cc8-3be0-409b-ad57-708ccf64d678.
 (oskclient) ko@cdc:~/restos/openstack$ 
@@ -158,7 +158,7 @@ Error while executing command: ConflictException: 409, Security group rule alrea
 
 ###### Accepte les connexions SSH en TCP sur le port IP 22
 
-```Shell
+```bash
 (oskclient) ko@cdc:~/restos/openstack$ openstack security group rule create --ingress --dst-port 22:22 --protocol tcp dsh-sg
 +-------------------------+--------------------------------------+
 | Field                   | Value                                |
@@ -218,7 +218,7 @@ Error while executing command: ConflictException: 409, Security group rule alrea
 
 ### Commandes à exécuter
 
-```Shell
+```bash
 openstack server create --flavor a1-ram2-disk10-perf1 --image debian-13 --network <NOM_RESEAU> --key <KEY> --security-group <SG_NAME> <VM_NAME>
 
 openstack router create <RT_NAME>
@@ -256,7 +256,7 @@ A ajuster par rapport à votre contexte.
 
 ##### Création de la VM
 
-```Shell
+```bash
 (oskclient) ko@cdc:~/restos/openstack$ openstack server create --flavor a1-ram2-disk10-perf1 --image debian-13 --network dsh-net --key dsh-admin --security-group dsh-sg test-say-1
 +-------------------------------------+------------------------------------------------------------------------------------------------------------------------------+
 | Field                               | Value                                                                                                                        |
@@ -315,7 +315,7 @@ A ajuster par rapport à votre contexte.
 
 ##### Création du routeur
 
-```Shell
+```bash
 (oskclient) ko@cdc:~/restos/openstack$ openstack router create dsh-rt
 +-------------------------+--------------------------------------+
 | Field                   | Value                                |
@@ -343,21 +343,21 @@ A ajuster par rapport à votre contexte.
 
 ##### Ajout du sous-réseau et de la passerelle Internet au routeur
 
-```Shell
+```bash
 (oskclient) ko@cdc:~/restos/openstack$ openstack router add subnet dsh-rt dsh-subnet
 ```
 
 
 ##### Ajout de la passerelle par défaut Internet au routeur
 
-```Shell
+```bash
 (oskclient) ko@cdc:~/restos/openstack$ openstack router set --external-gateway public_interco dsh-rt
 ```
 
 
 ##### Demande de réservation d'une adresse IP publique
 
-```Shell
+```bash
 (oskclient) ko@cdc:~/restos/openstack$ openstack floating ip create public_interco
 +---------------------+--------------------------------------+
 | Field               | Value                                |
@@ -389,7 +389,7 @@ A ajuster par rapport à votre contexte.
 
 ##### Affectation de l'adresse IP publique à la VM
 
-```Shell
+```bash
 (oskclient) ko@cdc:~/restos/openstack$ openstack server add floating ip test-say-1 151.242.68.227
 (oskclient) ko@cdc:~/restos/openstack$
 ```
@@ -399,7 +399,7 @@ A ajuster par rapport à votre contexte.
 
 ### Ping
 
-```Shell
+```bash
 (oskclient) ko@cdc:~/restos/openstack$ ping 151.242.68.227
 PING 151.242.68.227 (151.242.68.227) 56(84) bytes of data.
 64 bytes from 151.242.68.227: icmp_seq=1 ttl=52 time=6.79 ms
@@ -413,7 +413,7 @@ rtt min/avg/max/mdev = 6.788/6.788/6.788/0.000 ms
 
 ### SSH
 
-```Shell
+```bash
 (oskclient) ko@cdc:~/restos/openstack$ ssh debian@151.242.68.227
 The authenticity of host '151.242.68.227 (151.242.68.227)' can't be established.
 ED25519 key fingerprint is SHA256:4AR4T3PoP1ywI+nvlbV4vKabGtHEGrVdHQ/Y0j314Cg.
@@ -435,7 +435,7 @@ debian@test-say-1:~$
 
 #### Volumes disques de la VM
 
-```Shell
+```bash
 debian@test-say-1:~$ df -Thl
 Filesystem     Type      Size  Used Avail Use% Mounted on
 udev           devtmpfs  976M     0  976M   0% /dev
@@ -457,7 +457,7 @@ debian@test-say-1:~$
 
 #### Utilisation de mémoire de la VM
 
-```Shell
+```bash
 debian@test-say-1:~$ free -h
                total        used        free      shared  buff/cache   available
 Mem:           1.9Gi       208Mi       1.7Gi       472Ki       121Mi       1.7Gi
@@ -468,7 +468,7 @@ debian@test-say-1:~$
 
 #### Identifica tion du processeur depuis la VM
 
-```Shell
+```bash
 debian@test-say-1:~$ lscpu
 Architecture:                x86_64
   CPU op-mode(s):            32-bit, 64-bit
