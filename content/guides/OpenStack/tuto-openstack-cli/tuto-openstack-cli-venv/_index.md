@@ -142,7 +142,7 @@ Par example :
 openstack server list --debug
 ```
 
-Attention, c'est assez verbeux.
+> Attention, c'est assez verbeux.
 
 
 ## Ajout de la clé publique SSH pour la connection aux futures VMs
