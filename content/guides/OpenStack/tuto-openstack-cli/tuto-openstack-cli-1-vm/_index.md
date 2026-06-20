@@ -11,8 +11,7 @@ type: docs
 
 Information nécessaires pour créer une VM sur OpenStack:
 
-- Création du réseau
-- Création du subnet
+- Création du réseau et sousèreasu IP ()subnet)
 - Création du security group
 
 
