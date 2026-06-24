@@ -5,7 +5,7 @@ draft: false
 type: docs
 ---
 
-<img src="./cdc-illustration-developper.gif" alt="CoeurIA - Developper" style="width: 70%;">
+<img src="./cdc-illustration-developper.gif" alt="CoeurIA - Developper" style="width: 35%;">
 
 Une des capacités de CoeurIA est d'aider au développement.
 
