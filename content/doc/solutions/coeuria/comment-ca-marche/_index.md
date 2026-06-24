@@ -6,3 +6,5 @@ type: docs
 ---
 
 Parce que nous faisons les choses en toute transparence, il est important pour nous de vous partager comment ça marche.
+
+![](./cdc-illustration-howitworks.gif)
