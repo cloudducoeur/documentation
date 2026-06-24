@@ -73,7 +73,7 @@ Toute modification de fichier sera rechargée à chaud et rafraîchira la page d
 #### Créer une nouvelle branche
 
 Créez une branche pour ajouter votre contribution. Elle sera utilisée plus tard pour faire une **Pull Request**.
-```Shell
+```bash
 git switch -c my-contrib
 ```
 
