@@ -26,7 +26,7 @@ Ne stockez jamais votre clé d'API dans un dépôt Git. Utilisez les variables d
 
 ## OpenCode
 
-OpenCode peut être branché sur CoeurIA pour assister l'écriture, la relecture et l'amélioration de code.
+[OpenCode](https://opencode.ai/) peut être branché sur CoeurIA pour assister l'écriture, la relecture et l'amélioration de code.
 
 ### Étapes d'intégration
 
@@ -54,7 +54,7 @@ Model: <modele-coeuria>
 
 ## Continue.dev
 
-Continue.dev s'intègre directement dans VS Code et peut utiliser CoeurIA comme fournisseur de modèle.
+[Continue.dev](https://github.com/continuedev/continue) s'intègre directement dans VS Code et peut utiliser CoeurIA comme fournisseur de modèle.
 
 ### Étapes d'intégration
 
