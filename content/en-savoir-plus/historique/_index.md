@@ -48,4 +48,14 @@ L'idée était toujours là, celle de pouvoir héberger tout le monde sans que �
 
 Avec ces 3 baies, le Cloud du Coeur est né.
 
+### Une première baie sur Paris
+
+Suite aux différentes interventions pour présenter le projet, une société c'est proposée de nous aider en nous offrant de l'hébergement en région Parisienne. La région "Paris/PAR" du Cloud du Coeur est ainsi née.
+
+###  Un GPU, deux GPUs, trois GPUs plus tard : La naissance de CoeurIA
+
+Et si on rajoutait des GPUs sur le Cloud du Coeur ? 
+
+Avec l'arrivée des capacités GPU dans l'infrastructure, le projet **CoeurIA** a pu voir le jour.
+
 {{% /timeline %}}
