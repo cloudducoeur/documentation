@@ -30,11 +30,29 @@ Ne stockez jamais votre clé d'API dans un dépôt Git. Utilisez les variables d
 
 ### Étapes d'intégration
 
-1. Installez OpenCode sur votre poste.
-2. Créez un profil ou un provider dédié à CoeurIA.
-3. Configurez un endpoint compatible OpenAI.
-4. Sélectionnez un modèle disponible dans CoeurIA.
-5. Lancez un premier test (exemple : "explique cette fonction").
+{{% steps %}}
+
+#### Installer OpenCode
+
+Installez OpenCode sur votre poste.
+
+#### Créer un profil CoeurIA
+
+Créez un profil ou un provider dédié à CoeurIA.
+
+#### Configurer l'endpoint
+
+Configurez un endpoint compatible OpenAI.
+
+#### Choisir le modèle
+
+Sélectionnez un modèle disponible dans CoeurIA.
+
+#### Valider l'intégration
+
+Lancez un premier test (exemple : "explique cette fonction").
+
+{{% /steps %}}
 
 Exemple de paramètres à renseigner dans OpenCode :
 
@@ -58,11 +76,29 @@ Model: <modele-coeuria>
 
 ### Étapes d'intégration
 
-1. Installez l'extension Continue.dev dans VS Code.
-2. Ouvrez la configuration Continue.dev.
-3. Ajoutez une entrée de modèle pointant vers CoeurIA.
-4. Vérifiez que l'authentification fonctionne.
-5. Testez avec une demande simple sur un fichier du projet.
+{{% steps %}}
+
+#### Installer l'extension Continue.dev
+
+Installez l'extension Continue.dev dans VS Code.
+
+#### Ouvrir la configuration
+
+Ouvrez la configuration Continue.dev.
+
+#### Ajouter le modèle CoeurIA
+
+Ajoutez une entrée de modèle pointant vers CoeurIA.
+
+#### Vérifier l'authentification
+
+Vérifiez que l'authentification fonctionne.
+
+#### Tester dans le projet
+
+Testez avec une demande simple sur un fichier du projet.
+
+{{% /steps %}}
 
 Exemple de configuration Continue.dev (à adapter) :
 
