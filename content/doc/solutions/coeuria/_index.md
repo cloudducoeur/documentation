@@ -15,7 +15,7 @@ CœurIA est une IA conçue pour et par le monde associatif, avec une ambition si
 
 CœurIA fournit un ensemble d'outils visant à aider au mieux nos bénévoles dans leurs actions du quotidien. Dans cette documentation, vous retrouverez :
 
-- Comment fonctionne CœurIA ?
-- Comment l'utiliser ?
-- Comment l'intégrer à d'autres outils ?
-- Comment développer avec CœurIA ?
+- [Comment fonctionne CœurIA ?](https://doc.aucoeurdu.cloud/doc/solutions/coeuria/comment-ca-marche/)
+- [Comment l'utiliser ?](https://doc.aucoeurdu.cloud/doc/solutions/coeuria/bien-commencer/)
+- [Comment l'intégrer à d'autres outils ?](https://doc.aucoeurdu.cloud/doc/solutions/coeuria/integrations/)
+- [Comment développer avec CœurIA ?](https://doc.aucoeurdu.cloud/doc/solutions/coeuria/developper/)
