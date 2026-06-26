@@ -7,7 +7,7 @@ type: docs
 
 ![](./cdc-illustration-slack.png)
 
-Ce tutoriel explique comment connecter votre compte Slack personnel à LibreChat. Une fois configuré, vous pourrez demander à l'assistant de lire vos canaux, chercher des messages, envoyer des messages, etc. — directement depuis le chat.
+Ce tutoriel explique comment connecter votre compte Slack personnel à CoeurIA (LibreChat). Une fois configuré, vous pourrez demander à l'assistant de lire vos canaux, chercher des messages, envoyer des messages, etc. — directement depuis le chat.
 
 ### Ce dont vous avez besoin
 
