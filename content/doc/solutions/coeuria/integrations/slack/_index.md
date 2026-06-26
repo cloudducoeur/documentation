@@ -21,7 +21,7 @@ Ce tutoriel explique comment connecter votre compte Slack personnel à CoeurIA (
 
 #### Créer une application Slack
 
-1. Rendez-vous sur [api.slack.com/apps](api.slack.com/apps) et connectez-vous avec votre compte Slack.
+1. Rendez-vous sur [api.slack.com/apps](https://api.slack.com/apps) et connectez-vous avec votre compte Slack.
 
 2. Cliquez sur **Create New App**.
 
@@ -120,4 +120,4 @@ Si l'assistant répond avec des données de votre workspace, la configuration es
 
 ### Révoquer l'accès
 
-Si vous souhaitez déconnecter LibreChat de Slack, rendez-vous sur [api.slack.com/apps](api.slack.com/apps), sélectionnez votre app, puis **OAuth & Permissions → Revoke Token**.
+Si vous souhaitez déconnecter LibreChat de Slack, rendez-vous sur [api.slack.com/apps](https://api.slack.com/apps), sélectionnez votre app, puis **OAuth & Permissions → Revoke Token**.
