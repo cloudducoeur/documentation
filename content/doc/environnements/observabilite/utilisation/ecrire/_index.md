@@ -5,6 +5,8 @@ draft: false
 type: docs
 ---
 
+<img src="./cdc-illustration-metrics.png" alt="Observabilité" style="width:40%;">
+
 ## Endpoint d'écriture
 
 Envoyez les métriques de votre projet via l'adresse suivante :

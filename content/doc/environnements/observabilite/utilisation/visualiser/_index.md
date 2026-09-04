@@ -5,7 +5,7 @@ draft: false
 type: docs
 ---
 
-<img src="./cdc-illustration-metrics.png" alt="Observabilité" style="width:80%;">
+<img src="./cdc-illustration-metrics.png" alt="Observabilité" style="width:40%;">
 
 ## Accéder aux tableaux de bord
 
