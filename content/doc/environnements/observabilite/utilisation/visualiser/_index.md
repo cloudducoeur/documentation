@@ -5,6 +5,8 @@ draft: false
 type: docs
 ---
 
+<img src="./cdc-illustration-metrics.png" alt="Observabilité" style="width:80%;">
+
 ## Accéder aux tableaux de bord
 
 La visualisation des métriques se fait dans Grafana, à l'adresse suivante :
