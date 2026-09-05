@@ -16,8 +16,6 @@ Une métrique est une valeur mesurée dans le temps. Par exemple :
 - combien de requêtes reçoit une application ?
 - combien de temps met un service à répondre ?
 
-<img src="./cdc-howitworks-animation.gif" alt="Fonctionnement de VictoriaMetrics dans le Cloud du Coeur" style="width:80%;">
-
 ## Le chemin d'une métrique
 
 Dans le contexte du *Cloud du Coeur*, le fonctionnement est le suivant :
@@ -30,9 +28,7 @@ Dans le contexte du *Cloud du Coeur*, le fonctionnement est le suivant :
 
 En résumé :
 
-```text
-Application ou serveur -> Agent de collecte -> VictoriaMetrics -> Grafana
-```
+<img src="./cdc-howitworks-animation.gif" alt="Fonctionnement de VictoriaMetrics dans le Cloud du Coeur" style="width:80%;">
 
 ## Le tenant projet
 
