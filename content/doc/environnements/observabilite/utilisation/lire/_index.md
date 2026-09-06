@@ -9,6 +9,8 @@ type: docs
 
 ## Endpoint de lecture
 
+Voici le schéma qui résume le fonctionnement de l'endpoint de lecture et le flux des métriques vers votre tenant.
+
 <img src="./cdc-schema.png" alt="Schema" style="width:40%;">
 
 Les métriques sont consultables via l'adresse suivante :

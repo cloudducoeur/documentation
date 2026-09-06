@@ -9,6 +9,8 @@ type: docs
 
 ## Endpoint d'écriture
 
+Voici le schéma qui résume le fonctionnement de l'endpoint d'écriture et le flux des métriques vers votre tenant.
+
 <img src="./cdc-schema.png" alt="Schema" style="width:40%;">
 
 Envoyez les métriques de votre projet via l'adresse suivante :
