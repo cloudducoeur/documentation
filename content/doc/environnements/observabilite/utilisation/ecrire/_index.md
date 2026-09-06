@@ -29,9 +29,21 @@ https://metrics-write.cha.aucoeurdu.cloud/insert/<tenant>/prometheus/api/v1/writ
 Configurez cette URL dans l'agent qui collecte vos métriques, par exemple :
 
 ```yaml
+# A ajouter au haut de votre configuration
+global:
+    external_labels:
+        az: par1 # A remplacer en fonction de l'AZ
+        project: mon-super-projet
+    scrape_interval: 30s
+
 remote_write:
 	- url: https://metrics-write.cha.aucoeurdu.cloud/insert/<tenant>/prometheus/api/v1/write
+	  basicAuth:
+        username: "mon_user"
+        password: "mon_password"
 ```
 
 Remplacez `<tenant>` par l'identifiant de votre projet. Les métriques sont
-ainsi écrites dans l'espace qui lui est réservé.
+ainsi écrites dans l'espace qui lui est réservé. 
+
+A noter que le nom d'utilisateur et le mot de passe vous sera communiqué lors de la création du tenant. Pensez à bien le conserver. Dans le cas d'une perte de ce dernier, n'hésitez pas à nous contacter via un ticket support.
