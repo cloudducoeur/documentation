@@ -32,4 +32,4 @@ remote_write:
 Remplacez `<tenant>` par l'identifiant de votre projet. Les métriques sont
 ainsi écrites dans l'espace qui lui est réservé.
 
-<img src="./cdc-schema.png" alt="Schema" style="width:80%;">
+<img src="./cdc-schema.png" alt="Schema" style="width:60%;">

@@ -34,4 +34,4 @@ curl --get \
 Le tenant isole les métriques du projet. Une requête ne peut donc consulter
 que les données du tenant utilisé dans l'URL.
 
-<img src="./cdc-schema.png" alt="Schema" style="width:80%;">
+<img src="./cdc-schema.png" alt="Schema" style="width:60%;">
