@@ -32,8 +32,11 @@ VictoriaMetrics :
 ```bash
 curl --get \
 	'https://metrics-read.cha.aucoeurdu.cloud/select/<tenant>/prometheus/api/v1/query' \
+	-u '<username>:<password>' \
 	--data-urlencode 'query=up'
 ```
 
 Le tenant isole les métriques du projet. Une requête ne peut donc consulter
 que les données du tenant utilisé dans l'URL.
+
+A noter que le nom d'utilisateur et le mot de passe vous sera communiqué lors de la création du tenant. Pensez à bien le conserver. Dans le cas d'une perte de ce dernier, n'hésitez pas à nous contacter via un ticket support.
