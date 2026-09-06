@@ -9,6 +9,8 @@ type: docs
 
 ## Endpoint de lecture
 
+<img src="./cdc-schema.png" alt="Schema" style="width:40%;">
+
 Les métriques sont consultables via l'adresse suivante :
 
 ```text
@@ -33,5 +35,3 @@ curl --get \
 
 Le tenant isole les métriques du projet. Une requête ne peut donc consulter
 que les données du tenant utilisé dans l'URL.
-
-<img src="./cdc-schema.png" alt="Schema" style="width:60%;">

@@ -9,6 +9,8 @@ type: docs
 
 ## Endpoint d'écriture
 
+<img src="./cdc-schema.png" alt="Schema" style="width:40%;">
+
 Envoyez les métriques de votre projet via l'adresse suivante :
 
 ```text
@@ -31,5 +33,3 @@ remote_write:
 
 Remplacez `<tenant>` par l'identifiant de votre projet. Les métriques sont
 ainsi écrites dans l'espace qui lui est réservé.
-
-<img src="./cdc-schema.png" alt="Schema" style="width:60%;">
