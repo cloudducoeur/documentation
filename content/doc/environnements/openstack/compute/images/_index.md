@@ -24,7 +24,7 @@ Vous y trouverez des images publiques maintenues par l'équipe du Cloud du Cœur
 | Debian | 11 | x86_64 | `debian` |
 | Debian | 12 | x86_64 | `debian` |
 | Debian | 13 | x86_64 | `debian` |
-
+| OpnSense | 26.7 | x86_64 | `root` |
 
 {{% callout type="info" %}}
 Les images publiques sont mises à jour régulièrement par l'équipe du Cloud du Coeur. Elles incluent le package `cloud-init` nécessaire à l'injection de vos clés SSH et à la configuration réseau automatique. Votre clé SSH sera injectée sur l'utilisateur par défaut de la dite image.
