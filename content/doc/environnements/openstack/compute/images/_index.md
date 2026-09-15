@@ -13,7 +13,7 @@ Une **image** est un modèle de système d'exploitation utilisé pour démarrer 
 
 Le catalogue d'images est accessible depuis la console Horizon :
 
-1. Connectez-vous à la [console OpenStack](https://console.cloudducoeur.org).
+1. Connectez-vous à la [console OpenStack](https://console.aucoeurdu.cloud).
 2. Dans le menu latéral, rendez-vous dans **Compute** → **Images**.
 
 Vous y trouverez des images publiques maintenues par l'équipe du Cloud du Cœur, notamment :
