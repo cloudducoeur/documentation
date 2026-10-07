@@ -11,6 +11,7 @@ cascade:
 ### Les environnements
 
 {{< cards >}}
+  {{< card link="environnements/manager" title="Manager" subtitle="Gérez les produits du Cloud du Coeur depuis une interface web unifiée." icon="view-grid" >}}
   {{< card link="environnements/openstack" title="Plateforme Cloud (OpenStack)" subtitle="Jouer avec vos ressources dans le Cloud du Coeur." icon="command-line" >}}
   {{< card link="environnements/observabilite" title="Plateforme d'Observabilité (Grafana)" subtitle="Découvrez la plateforme d'observabilité pour récupérer vos métriques, vos logs..." icon="chart-bar" >}}
   {{< card link="environnements/la-forge" title="La forge (Gitlab)" subtitle="Découvrez la forge et déployer votre code dans un endroit sûr et automatisé" icon="gitlab" >}}
