@@ -18,6 +18,8 @@ L'indépendance technologique nous permet avant tout de contrôler notre destin 
 
 Cette autonomie nous aide également à *garantir la pérennité de nos services*, même en cas de disparition ou de changement de stratégie d'un fournisseur. Nous pouvons ainsi préserver la confidentialité de nos données en maîtrisant où et comment elles sont stockées et traitées. Enfin, cette approche nous permet de maintenir notre capacité d'innovation en adaptant et faisant évoluer nos outils selon nos besoins spécifiques.
 
+Cette indépendance s'étend aussi au réseau : le Cloud du Coeur possède son propre numéro de système autonome, l'[AS214404](https://bgp.tools/as/214404). Un ASN identifie un réseau sur Internet et lui permet d'échanger ses routes avec les autres réseaux, afin de gérer son backbone de manière autonome.
+
 ## L'open source et le logiciel libre comme fondement
 
 ### Les avantages de l'open source
