@@ -7,6 +7,10 @@ type: docs
 
 Pour qu'une instance soit joignable depuis l'extérieur (Internet), vous devez lui associer une **IP Flottante** (Floating IP). C'est une adresse IP publique routable qui est mappée (NAT 1:1) vers l'adresse IP privée de votre instance.
 
+{{% callout type="info" %}}
+Le sous-réseau IPv4 public du Cloud du Coeur est `151.242.68.0/24`.
+{{% /callout %}}
+
 ### Gérer les IP flottantes via la console
 
 {{% steps %}}
