@@ -28,7 +28,7 @@ Dans le contexte du *Cloud du Coeur*, le fonctionnement est le suivant :
 
 En résumé :
 
-<img src="./cdc-howitworks-animation.gif" alt="Fonctionnement de VictoriaMetrics dans le Cloud du Coeur" style="width:80%;">
+<img src="./cdc-howitworks-animation.gif" alt="Fonctionnement de VictoriaMetrics dans le Cloud du Coeur" style="width:60%;">
 
 ## Le tenant projet
 
