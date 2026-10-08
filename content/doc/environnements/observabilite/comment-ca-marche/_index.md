@@ -44,4 +44,5 @@ Avant d'envoyer ou de lire des métriques, il faut donc demander la création d'
 - Grafana les affiche.
 - Chaque projet a son propre tenant.
 - Les métriques sont stockées dans la région **Chartres | CHA**.
-- Pour commencer, il faut demander un tenant à l'équipe du Cloud du Coeur.
+- Les métriques sont conservées sur une durée glissante d'un an.
+- Pour commencer, il faut demander un tenant à l'équipe du Cloud du Coeur via un [ticket](https://tickoeur.restosducoeur.org/).
