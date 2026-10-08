@@ -41,7 +41,7 @@ Avant d'envoyer ou de lire des métriques, il faut donc demander la création d'
 ## À retenir
 
 - VictoriaMetrics stocke les métriques.
-- Grafana les affiche.
+- [Grafana](https://observabilite.aucoeurdu.cloud/) les affiche.
 - Chaque projet a son propre tenant.
 - Les métriques sont stockées dans la région **Chartres | CHA**.
 - Les métriques sont conservées sur une durée glissante d'un an.
