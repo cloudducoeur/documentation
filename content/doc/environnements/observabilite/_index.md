@@ -27,18 +27,10 @@ L'observabilité est au coeur du projet du Cloud du Coeur pour plusieurs raisons
 
 Pour cela, nous utilisons des outils comme **VictoriaMetrics** (pour la collecte et l’analyse des métriques) et **Grafana** (pour la visualisation et le suivi via des tableaux de bord).
 
-Les données d'observabilité sont stockées dans la région **Chartres | CHA** du Cloud du Coeur.
-
-## Demander un tenant
-
-Chaque nouveau projet doit disposer de son propre tenant VictoriaMetrics. Avant
-d'utiliser les endpoints de lecture ou d'écriture, créez un ticket dans
-[Tickoeur](https://tickoeur.restosducoeur.org/) à destination de l'équipe du
-Cloud du Coeur afin qu'elle crée un tenant associé au projet.
-
-## L'utiliser
+## Les données d'observabilité
 
 {{< cards >}}
-  {{< card link="utilisation" title="Utiliser la plateforme" subtitle="Explorez les données d'observabilité et les tableaux de bord." icon="chart-bar" >}}
-  {{< card link="comment-ca-marche" title="Comment ça marche ?" subtitle="Comprenez la collecte et la visualisation des données." icon="document-text" >}}
+  {{< card link="metriques" title="Métriques" subtitle="Collectez, consultez et visualisez les métriques de votre projet." icon="chart-bar" >}}
+  {{< card link="logs" title="Logs" subtitle="Bientôt disponibles." icon="document-text" >}}
+  {{< card link="traces" title="Traces" subtitle="Bientôt disponibles." icon="search" >}}
 {{< /cards >}}

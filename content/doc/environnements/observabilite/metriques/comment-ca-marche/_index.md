@@ -3,6 +3,8 @@ title: 'Comment ça marche ?'
 description:
 draft: false
 type: docs
+aliases:
+	- /doc/environnements/observabilite/comment-ca-marche/
 ---
 
 Parce que nous faisons les choses en toute transparence, il est important pour nous de vous partager comment ça marche.

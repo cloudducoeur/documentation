@@ -3,6 +3,8 @@ title: 'Visualiser la donnée'
 description:
 draft: false
 type: docs
+aliases:
+	- /doc/environnements/observabilite/utilisation/visualiser/
 ---
 
 <img src="./cdc-illustration-metrics.png" alt="Observabilité" style="width:40%;">

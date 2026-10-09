@@ -3,6 +3,8 @@ title: 'Lire la donnée'
 description:
 draft: false
 type: docs
+aliases:
+	- /doc/environnements/observabilite/utilisation/lire/
 ---
 
 <img src="./cdc-illustration-metrics.png" alt="Observabilité" style="width:40%;">
