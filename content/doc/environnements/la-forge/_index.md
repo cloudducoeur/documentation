@@ -16,7 +16,7 @@ Notre forge est *une instance GitLab dédiée* qui nous offre un environnement c
 Elle combine plusieurs fonctionnalités essentielles : la gestion de versions avec Git, l'intégration continue et le déploiement automatisé (CI/CD), la gestion des projets et la collaboration entre équipes.
 
 {{< cards >}}
-  {{< card link="#" title="Accéder à la forge" icon="link" >}}
+  {{< card link="https://laforce.aucoeurdu.cloud" title="Accéder à la forge" icon="link" >}}
 {{< /cards >}}
 
 Cette infrastructure nous permet de centraliser tous nos développements au sein d'une plateforme que *nous maîtrisons entièrement*. Contrairement aux services publics comme GitHub, notre forge nous **garantit un contrôle total sur nos données et nos processus de développement**.
